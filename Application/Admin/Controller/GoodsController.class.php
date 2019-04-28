@@ -60,10 +60,34 @@ class GoodsController extends Controller
         $this->display();
     }
 
+    public function edit()//edit.html与方法名edit对应
+    {
+        $id = I('get.id');
+        $model = D('goods');
+        if (IS_POST) {
+//            var_dump(I('post.'));exit();
+            if ($model->create(I('post.'), 2)) {//接受表单，根据表单中的规则验证表单,create默认接受所有字段
+//                var_dump($model->add()); exit();
+                if (false !== $model->save()) {//save()的返回值是失败False,成功受影响条数，修改后和修改前相同是0，0是假会认为修改失败
+                    $this->success('操作成功!', U(lst), 3);//当前控制器的方法
+                    exit;
+                }
+            }
+            $error = $model->getError();//失败的信息存入控制器中
+            $this->error($error);
+        }
+        //根据id取出要修改的商品信息start
+        $data = $model->find($id);
+        $this->assign('data', $data);
+        //根据id取出要修改的商品信息stop
+        $this->display();
+    }
+
+
     public function del()
     {
         $model = D('goods');
-        if ($model->delete(I('get.goods_id')) == true) {
+        if (false !== $model->delete(I('get.id'))) {
             $this->success('删除成功！', U('lst'));
         } else {
             $this->error('删除失败！原因：' . $model->getError());

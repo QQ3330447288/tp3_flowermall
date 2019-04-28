@@ -16,7 +16,10 @@ header("content-type:text/html;charset=utf-8");
 class GoodsModel extends Model
 {
     //添加时调用create方法允许接收的字段
-    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo';
+    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo,is_on_sale';
+    //添加时调用create方法允许接收的字段
+    protected $updateFields = 'goods_id,goods_name,shop_price,market_price,goods_desc,logo,is_on_sale';
+
     //定义验证规则
     //1、表示表单必须验证；默认0是：存在字段就验证；2、值不为空的时候验证
     protected $_validate = array(
@@ -157,6 +160,21 @@ class GoodsModel extends Model
             'page' => $pageString,
         );
         /***************stop搜索*******************/
+    }
+
+    protected function _before_delete($options)
+    {
+        //var_dump($options);die();
+        $id = $options['where']['goods_id'];  //要删除商品的id
+        /*************start删除原来的图***********/
+        $oldlogo = $this->field('logo,mbig_logo,big_logo,mid_logo,sm_logo')->find($id);//获取原图路径
+        unlink('./Public/Uploads/' . $oldlogo['logo']);
+        unlink('./Public/Uploads/' . $oldlogo['mbig_logo']);
+        unlink('./Public/Uploads/' . $oldlogo['big_logo']);
+        unlink('./Public/Uploads/' . $oldlogo['mid_logo']);
+        unlink('./Public/Uploads/' . $oldlogo['sm_logo']);
+        /*************stop删除原来的图***********/
+
     }
 
 }

@@ -313,7 +313,7 @@
                                     <a href="<?php echo U('edit?id='.$v['goods_id']);?>"
                                        class="label label-success">编辑</a>
                                     <a href="<?php echo U('del?id='.$v['goods_id']);?>"
-                                       class="label label-danger">删除</a>
+                                       class="label label-danger" onclick="return confirm('确认要删除吗？')">删除</a>
                                 </td>
                             </tr>
                             <?php endforeach; ?>
