@@ -88,17 +88,58 @@ class GoodsModel extends Model
     /**
      * 搜索、排序、分页
      */
-    public function search($perPger = 2)
+    public function search($perPger = 4)
     {
+        /***************start搜索*******************/
+        $where = array();//空人where条件
+        $goods_name = I('get.goods_name');
+        if ($goods_name) {//值非空
+            $where['goods_name'] = array('like', "%$goods_name%");//TP写：WHERE goods_name LIKE '%$goods_name%'
+        }
+        $fp = I('get.firstPrice');
+        $lp = I('get.lastPrice');
+        if ($fp && $lp)
+            $where['shop_price'] = array('between', array($fp, $lp));//where shop_price between $fp and $tp
+        elseif ($fp)
+            $where['shop_price'] = array('egt', $fp);//>=
+        elseif ($lp)
+            $where['shop_price'] = array('elt', $lp);//<=
+        $ios = I('get.is_on_sale');
+        if ($ios)
+            $where['is_on_sale'] = array('eq', $ios);
+//        添加时间
+        $ft = I('get.firstTime');
+        $st = I('get.stopTime');
+        if ($ft && $st)
+            $where['shop_price'] = array('between', array($ft, $st));//where shop_price between $fp and $tp
+        elseif ($ft)
+            $where['shop_price'] = array('egt', $ft);//>=
+        elseif ($st)
+            $where['shop_price'] = array('elt', $st);
+
+        /***************stop搜索*******************/
+
+        /***************start排序*******************/
+        $orderby = 'goods_id';//默认排序字段
+        $orderway = 'desc';//默认排序方式
+        $odby = I('get.order_by');
+        if ($odby) {
+            if ($odby == 'id_asc')
+                $orderway = 'asc';
+            elseif ($odby == "price_desc") {
+                $orderby = 'shop_price';
+            } elseif ($odby == 'price_asc') {
+                $orderby = 'shop_price';
+                $orderway = 'asc';
+            }
+        }
+        /***************stop排序*******************/
 
 
-
-
-
-
-
+        /***************start搜索*******************/
         //取出总的记录数
-        $count = $this->count();
+//        $count = $this->count();
+        $count = $this->where($where)->count();//在where条件下人总人记录数
         //生成翻页类的对象
         $pageObj = new \Think\Page($count, $perPger);
         //设置样式
@@ -107,12 +148,15 @@ class GoodsModel extends Model
         //生成页面下面显示的上一页、下一页的字符串
         $pageString = $pageObj->show();
         //取某一页的数据
-        $data = $this->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
+//        $data = $this->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
+        $data = $this->order("$orderby $orderway")->where($where)->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
+
         //返回数据
         return array(
             'data' => $data,
             'page' => $pageString,
         );
+        /***************stop搜索*******************/
     }
 
 }

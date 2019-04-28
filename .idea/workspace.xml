@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="251b4a4e-9fc3-42d6-b707-352f8b630351" name="Default Changelist" comment="" />
+    <list default="true" id="251b4a4e-9fc3-42d6-b707-352f8b630351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Common/Common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Common/Common/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/12cf6a5c74297688873998de0720405d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/12cf6a5c74297688873998de0720405d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_04_28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,36 +30,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/lst.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="202">
+              <caret line="159" selection-start-line="159" selection-end-line="164" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fp</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/db.sql" />
+        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="472" />
     <option name="y" value="28" />
     <option name="width" value="930" />
     <option name="height" value="715" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -50,14 +97,92 @@
               <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Laydate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -94,18 +219,19 @@
       <updated>1556370895079</updated>
       <workItem from="1556370896588" duration="2026000" />
       <workItem from="1556418498992" duration="82000" />
-      <workItem from="1556420657999" duration="714000" />
+      <workItem from="1556420657999" duration="1934000" />
+      <workItem from="1556427281805" duration="9019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2822000" />
+    <option name="totallyTimeSpent" value="13061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2137628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -179,8 +305,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="176">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="151" column="38" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/blockcss.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="56" column="64" lean-forward="true" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="159" selection-start-line="159" selection-end-line="164" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
         </state>
       </provider>
     </entry>

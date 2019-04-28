@@ -37,6 +37,10 @@ class GoodsController extends Controller
             //在控制器中显示信息
             $this->error($error);//错误信息，跳转地址（默认跳回上一个页面），默认在三秒跳转
         }
+
+
+        //取出所有品牌
+
         //1、显示表单
         $this->display();
     }
@@ -47,6 +51,12 @@ class GoodsController extends Controller
         //返回数据和翻页
         $data = $model->search();
         $this->assign($data);
+//      $this->assign('data',$data['data']);
+//      $this->assign('data',$data['page']);
+//      $this->assign(array(
+//           'data' => $data['data'],
+//           'data' => $data['page']
+//       ));
         $this->display();
     }
 

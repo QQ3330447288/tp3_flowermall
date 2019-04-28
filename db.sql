@@ -6,6 +6,8 @@ create table flower_brand(
      primary key(id)
     )engine=InnoDB default charset=utf8 comment '品牌';
 
+ alter table flower_goods add brand_id mediumint unsigned not null default '0' comment '品牌id';
+-- brand_id记得创建索引
 create table  if not exists flower_goods (
   goods_id mediumint unsigned not null  auto_increment comment 'id',
   goods_name varchar(150) not null comment '商品名称',

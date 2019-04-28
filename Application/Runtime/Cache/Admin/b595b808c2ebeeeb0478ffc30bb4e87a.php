@@ -70,13 +70,13 @@
         </div>
         <ul class="sidebar-menu">
             <li class="header">管理菜单</li>
-            <li class="treeview">
+            <li class="treeview" id="g-1">
                 <a href="#">
                     <span class="glyphicon glyphicon-home"></span>
                     <span>首页</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
-                <ul class="treeview-menu">
+                <ul class="treeview-menu" id="g-1-1">
                     <li>
                         <a href="/index.php/Admin/index/">
                             <span class="glyphicon "></span></span>控制面板
@@ -84,38 +84,38 @@
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview" id="g-2">
                 <a href="#">
                     <span class="glyphicon glyphicon-tags"></span>
                     <span>分类管理</span>
                     <span class="label label-primary pull-right">2</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
+                    <li id="g-2-1">
                         <a href="tag_add.html">
                             <span class="glyphicon"></span> 添加分类
                         </a>
                     </li>
-                    <li>
+                    <li id="g-2-2">
                         <a href="tag_list.html">
                             <span class="glyphicon"></span> 分类列表
                         </a>
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview" id="g-3">
                 <a href="#">
                     <span class="glyphicon glyphicon-gift"></span>
                     <span>商品管理</span>
-                    <span class="label label-primary pull-right">2</span>
+                    <span class="label label-primary pull-right">3</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
+                    <li id="g-3-1">
                         <a href="/index.php/Admin/Goods/lst">
                             <span class="glyphicon "></span>商品列表
                         </a>
                     </li>
-                    <li>
+                    <li id="g-3-2">
                         <a href="/index.php/Admin/Goods/add">
                             <span class="glyphicon"></span>添加商品
                         </a>
@@ -139,7 +139,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                   <span class="glyphicon glyphicon-comment"></span>
+                    <span class="glyphicon glyphicon-comment"></span>
                     <span>评论管理</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
@@ -153,7 +153,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                   <span class="glyphicon glyphicon-file"></span>
+                    <span class="glyphicon glyphicon-file"></span>
                     <span>资金管理</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
@@ -249,9 +249,13 @@
 <script src="/Public/Admin/js/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/fastclick.min.js"></script>
 <script src="/Public/Admin/js/app.min.js"></script>
+<script src="/Public/Laydate/laydate.js"></script>
 <script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
 <script>
-
+    $(document).ready(function () {
+        $("#g-1").addClass("active");
+        $("#g-1-1").addClass("active");
+    });
 </script>
 </body>
 </html>

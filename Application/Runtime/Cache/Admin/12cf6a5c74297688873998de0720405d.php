@@ -70,13 +70,13 @@
         </div>
         <ul class="sidebar-menu">
             <li class="header">管理菜单</li>
-            <li class="treeview">
+            <li class="treeview" id="g-1">
                 <a href="#">
                     <span class="glyphicon glyphicon-home"></span>
                     <span>首页</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
-                <ul class="treeview-menu">
+                <ul class="treeview-menu" id="g-1-1">
                     <li>
                         <a href="/index.php/Admin/index/">
                             <span class="glyphicon "></span></span>控制面板
@@ -84,38 +84,38 @@
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview" id="g-2">
                 <a href="#">
                     <span class="glyphicon glyphicon-tags"></span>
                     <span>分类管理</span>
                     <span class="label label-primary pull-right">2</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
+                    <li id="g-2-1">
                         <a href="tag_add.html">
                             <span class="glyphicon"></span> 添加分类
                         </a>
                     </li>
-                    <li>
+                    <li id="g-2-2">
                         <a href="tag_list.html">
                             <span class="glyphicon"></span> 分类列表
                         </a>
                     </li>
                 </ul>
             </li>
-            <li class="treeview">
+            <li class="treeview" id="g-3">
                 <a href="#">
                     <span class="glyphicon glyphicon-gift"></span>
                     <span>商品管理</span>
-                    <span class="label label-primary pull-right">2</span>
+                    <span class="label label-primary pull-right">3</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
+                    <li id="g-3-1">
                         <a href="/index.php/Admin/Goods/lst">
                             <span class="glyphicon "></span>商品列表
                         </a>
                     </li>
-                    <li>
+                    <li id="g-3-2">
                         <a href="/index.php/Admin/Goods/add">
                             <span class="glyphicon"></span>添加商品
                         </a>
@@ -139,7 +139,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                   <span class="glyphicon glyphicon-comment"></span>
+                    <span class="glyphicon glyphicon-comment"></span>
                     <span>评论管理</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
@@ -153,7 +153,7 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                   <span class="glyphicon glyphicon-file"></span>
+                    <span class="glyphicon glyphicon-file"></span>
                     <span>资金管理</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
@@ -252,13 +252,38 @@
                                 <div class="form-group">
                                     <label for="">添加时间：</label>
                                     <input type="text" class="form-control" name="firstTime"
-                                           value="<?php echo I('get.firstTime');?>">
+                                           value="<?php echo I('get.firstTime');?>" id="firstTime">
                                 </div>
                                 <div class="form-group">
                                     <label for="">~</label>
                                     <input type="text" class="form-control" name="stopTime"
-                                           value="<?php echo I('get.stopTime');?>">
+                                           value="<?php echo I('get.stopTime');?>" id="stopTime">
                                 </div>
+                            </div>
+                            <div class="form-inline" style="margin-top: 2px;">
+                                <label>排序方式：</label>
+                                <?php $order_by=I('get.order_by','id_desc');?>
+                                <label class="radio-inline">
+                                    <input type="radio" name="order_by"
+                                           value="id_desc" <?php if($order_by=='id_desc')echo 'checked'; ?>
+                                    onclick="this.parentNode.parentNode.parentNode.submit();"/> 以添加时间降序
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="order_by"
+                                           value="id_asc" <?php if($order_by=='id_asc')echo 'checked'; ?>
+                                    onclick="this.parentNode.parentNode.parentNode.submit();"/> 以添加时间降序
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="order_by"
+                                           value="price_desc" <?php if($order_by=='price_desc')echo 'checked'; ?>
+                                    onclick="this.parentNode.parentNode.parentNode.submit();" />
+                                    以价格降序
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="order_by"
+                                           value="price_asc" <?php if($order_by=='price_asc')echo 'checked'; ?>
+                                    onclick="this.parentNode.parentNode.parentNode.submit();"/> 以价格升序
+                                </label>
                             </div>
                             <button type="submit" class="btn btn-primary">查询</button>
                         </form>
@@ -267,6 +292,7 @@
                             <tr>
                                 <th>商品ID</th>
                                 <th>商品名称</th>
+                                <th>商品Logo</th>
                                 <th>商品价格</th>
                                 <th>市场价格</th>
                                 <th>是否上架</th>
@@ -277,6 +303,8 @@
                             <tr>
                                 <td> <?php echo $v['goods_id']; ?></td>
                                 <td> <?php echo $v['goods_name']; ?></td>
+                                <td><img src="/Public/Uploads/<?php echo $v['sm_logo']?>"></td>
+                                <!-- <td> <?php showImages($v['sm_logo']) ?></td>-->
                                 <td> <?php echo $v['shop_price']; ?></td>
                                 <td> <?php echo $v['market_price']; ?></td>
                                 <td> <?php echo $v['is_on_sale']; ?></td>
@@ -314,6 +342,23 @@
 <script src="/Public/Admin/js/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/fastclick.min.js"></script>
 <script src="/Public/Admin/js/app.min.js"></script>
+<script src="/Public/Laydate/laydate.js"></script>
 <script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#g-3").addClass("active");
+        $("#g-3-1").addClass("active");
+    });
+</script>
+<script>
+    laydate.render({
+        elem: '#firstTime'
+        , type: 'datetime'
+    });
+    laydate.render({
+        elem: '#stopTime'
+        , type: 'datetime'
+    });
+</script>
 </body>
 </html>

@@ -18,3 +18,14 @@ function removeXSS($data)
     // 过滤字符串
     return $obj->purify($data);
 }
+
+function showImages($url, $width = '', $height = '')
+{
+    if ($width)
+        $width = "width='$width'";
+    if ($height)
+        $height = "height='$height'";
+
+    $ic = C('IMAGE_CONFIG');
+    echo "<img $width $height src='{$ic['viewPath']}$url'/>";
+}
