@@ -35,6 +35,18 @@
                                     <input type="text" class="form-control" id="goods_name" name="goods_name"
                                            placeholder="请输入商品名称！" value="<?php echo $data['goods_name'];?>">
                                 </div>
+                                <label>所属品牌</label>
+                                <select class="form-control" name="brand_id">
+                                    <option>----请选择----</option>
+                                    <?php foreach($brandData as $k =>$v):
+                                        if($data['brand_id']==$v['id'])
+                                            $selected='selected';
+                                        else
+                                            $selected='';
+                                    ?>
+                                    <option {$selected} value="{$v['id']}">{$v['brand_name']}</option>
+                                    <?php endforeach; ?>
+                                </select>
                                 <div class="form-group">
                                     <label for="logo">Logo</label><br>
                                     <?php if($data['mid_logo']==false) {?>

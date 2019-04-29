@@ -27,13 +27,7 @@
                             <h3 class="box-title">商品列表</h3>
                             <div class="box-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control pull-right"
-                                           placeholder="请输入关键字...">
-
-                                    <div class="input-group-btn">
-                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
-                                        </button>
-                                    </div>
+                                    <a href="__MODULE__/Goods/add" class="btn btn-primary pull-right">添加商品</a>
                                 </div>
                             </div>
                         </div>
@@ -116,6 +110,7 @@
                             <tr>
                                 <th>商品ID</th>
                                 <th>商品名称</th>
+                                <th>品牌</th>
                                 <th>商品Logo</th>
                                 <th>商品价格</th>
                                 <th>市场价格</th>
@@ -127,6 +122,7 @@
                             <tr>
                                 <td> <?php echo $v['goods_id']; ?></td>
                                 <td> <?php echo $v['goods_name']; ?></td>
+                                <td> {$v['brand_name']}</td>
                                 <td><img src="/Public/Uploads/<?php echo $v['sm_logo']?>"></td>
                                 <!-- <td> <?php showImages($v['sm_logo']) ?></td>-->
                                 <td> <?php echo $v['shop_price']; ?></td>

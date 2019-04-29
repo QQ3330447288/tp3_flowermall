@@ -84,25 +84,6 @@
                     </li>
                 </ul>
             </li>
-            <li class="treeview" id="g-2">
-                <a href="#">
-                    <span class="glyphicon glyphicon-tags"></span>
-                    <span>分类管理</span>
-                    <span class="label label-primary pull-right">2</span>
-                </a>
-                <ul class="treeview-menu">
-                    <li id="g-2-1">
-                        <a href="tag_add.html">
-                            <span class="glyphicon"></span> 添加分类
-                        </a>
-                    </li>
-                    <li id="g-2-2">
-                        <a href="tag_list.html">
-                            <span class="glyphicon"></span> 分类列表
-                        </a>
-                    </li>
-                </ul>
-            </li>
             <li class="treeview" id="g-3">
                 <a href="#">
                     <span class="glyphicon glyphicon-gift"></span>
@@ -116,27 +97,42 @@
                         </a>
                     </li>
                     <li id="g-3-2">
+                        <a href="/index.php/Admin/Cate/lst">
+                            <span class="glyphicon"></span>分类列表
+                        </a>
+                    </li>
+                    <li id="g-3-3">
                         <a href="/index.php/Admin/Goods/add">
-                            <span class="glyphicon"></span>添加商品
+                            <span class="glyphicon"></span>属性列表
+                        </a>
+                    </li>
+                    <li id="g-3-4">
+                        <a href="/index.php/Admin/Goods/add">
+                            <span class="glyphicon"></span>品牌列表
                         </a>
                     </li>
                 </ul>
             </li>
-
-            <li class="treeview">
+            <li class="treeview" id="g-4">
                 <a href="#">
                     <span class="glyphicon glyphicon-user"></span>
-                    <span>会员管理</span>
+                    <span>会员列表</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
-                        <a href="user_list.html">
+                    <li id="g-4-1">
+                        <a href="/index.php/Admin/MemberLevel/lst">
+                            <span class="glyphicon"></span>会员级别
+                        </a>
+                    </li>
+                    <li id="g-4-2">
+                        <a href="/index.php/Admin/Member/lst">
                             <span class="glyphicon"></span>会员列表
                         </a>
                     </li>
                 </ul>
             </li>
+
             <li class="treeview">
                 <a href="#">
                     <span class="glyphicon glyphicon-comment"></span>
@@ -203,13 +199,7 @@
                             <h3 class="box-title">商品列表</h3>
                             <div class="box-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control pull-right"
-                                           placeholder="请输入关键字...">
-
-                                    <div class="input-group-btn">
-                                        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
-                                        </button>
-                                    </div>
+                                    <a href="/index.php/Admin/Goods/add" class="btn btn-primary pull-right">添加商品</a>
                                 </div>
                             </div>
                         </div>
@@ -292,6 +282,7 @@
                             <tr>
                                 <th>商品ID</th>
                                 <th>商品名称</th>
+                                <th>品牌</th>
                                 <th>商品Logo</th>
                                 <th>商品价格</th>
                                 <th>市场价格</th>
@@ -303,6 +294,7 @@
                             <tr>
                                 <td> <?php echo $v['goods_id']; ?></td>
                                 <td> <?php echo $v['goods_name']; ?></td>
+                                <td> <?php echo ($v['brand_name']); ?></td>
                                 <td><img src="/Public/Uploads/<?php echo $v['sm_logo']?>"></td>
                                 <!-- <td> <?php showImages($v['sm_logo']) ?></td>-->
                                 <td> <?php echo $v['shop_price']; ?></td>

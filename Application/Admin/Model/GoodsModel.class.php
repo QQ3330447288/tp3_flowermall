@@ -16,9 +16,9 @@ header("content-type:text/html;charset=utf-8");
 class GoodsModel extends Model
 {
     //添加时调用create方法允许接收的字段
-    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo,is_on_sale';
+    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id';
     //添加时调用create方法允许接收的字段
-    protected $updateFields = 'goods_id,goods_name,shop_price,market_price,goods_desc,logo,is_on_sale';
+    protected $updateFields = 'goods_id,goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id';
 
     //定义验证规则
     //1、表示表单必须验证；默认0是：存在字段就验证；2、值不为空的时候验证
@@ -123,7 +123,7 @@ class GoodsModel extends Model
         /***************stop搜索*******************/
 
         /***************start排序*******************/
-        $orderby = 'goods_id';//默认排序字段
+        $orderby = 'goods_id';//默认排序字段 搜索的时候：$orderby = 'a.id'
         $orderway = 'desc';//默认排序方式
         $odby = I('get.order_by');
         if ($odby) {
@@ -152,7 +152,13 @@ class GoodsModel extends Model
         $pageString = $pageObj->show();
         //取某一页的数据
 //        $data = $this->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
-        $data = $this->order("$orderby $orderway")->where($where)->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
+        $data = $this->order("$orderby $orderway")
+            ->field('a.*,b.brand_name')
+            ->alias('a')
+            ->join('LEFT JOIN __BRAND__ b ON a.brand_id=b.id')
+            ->where($where)
+            ->limit($pageObj->firstRow . ',' . $pageObj->listRows)
+            ->select();#__BRAND__或者flower_brand
 
         //返回数据
         return array(
@@ -177,5 +183,17 @@ class GoodsModel extends Model
 
     }
 
+
 }
+
+
+#内连接和外连接区别
+#去掉LEFT是内连
+#内连接：
+#SELECT a.*,b.brand_name FROM flower_goods a JOIN flower_brand b ON a.brand_id = b.id
+#等价于：
+#SELECT a.*,b.brand_name FROM flower_goods a,flower_brand b WHERE a.brand_id = b.id
+//内连接：没有关联的记录就取不出来，必须两个表有相关连的数据才能取出来
+//外连接：主表的数据一定都能取出来，无论有没有关联的数据
+
 

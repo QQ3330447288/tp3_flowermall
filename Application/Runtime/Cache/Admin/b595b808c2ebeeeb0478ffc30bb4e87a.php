@@ -122,21 +122,26 @@
                     </li>
                 </ul>
             </li>
-
-            <li class="treeview">
+            <li class="treeview" id="g-4">
                 <a href="#">
                     <span class="glyphicon glyphicon-user"></span>
-                    <span>会员管理</span>
+                    <span>会员列表</span>
                     <span class="label label-primary pull-right">1</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
-                        <a href="user_list.html">
+                    <li id="g-4-1">
+                        <a href="/index.php/Admin/MemberLevel/lst">
+                            <span class="glyphicon"></span>会员级别
+                        </a>
+                    </li>
+                    <li id="g-4-2">
+                        <a href="/index.php/Admin/Member/lst">
                             <span class="glyphicon"></span>会员列表
                         </a>
                     </li>
                 </ul>
             </li>
+
             <li class="treeview">
                 <a href="#">
                     <span class="glyphicon glyphicon-comment"></span>

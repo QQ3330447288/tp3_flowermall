@@ -40,6 +40,12 @@ class GoodsController extends Controller
 
 
         //取出所有品牌
+        $brandModel = D('brand');
+        $brandData = $brandModel->select();
+        //设置页面信息
+        $this->assign(array(
+            'brandData' => $brandData,
+        ));
 
         //1、显示表单
         $this->display();
@@ -80,6 +86,17 @@ class GoodsController extends Controller
         $data = $model->find($id);
         $this->assign('data', $data);
         //根据id取出要修改的商品信息stop
+
+
+        //取出所有品牌
+        $brandModel = D('brand');
+        $brandData = $brandModel->select();
+        //设置页面信息
+        $this->assign(array(
+            'brandData' => $brandData,
+        ));
+
+
         $this->display();
     }
 

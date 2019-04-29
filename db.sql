@@ -7,7 +7,7 @@ create table flower_brand(
     )engine=InnoDB default charset=utf8 comment '品牌';
 
  alter table flower_goods add brand_id mediumint unsigned not null default '0' comment '品牌id';
--- brand_id记得创建索引
+-- idmen记得创建索引
 create table  if not exists flower_goods (
   goods_id mediumint unsigned not null  auto_increment comment 'id',
   goods_name varchar(150) not null comment '商品名称',
@@ -34,11 +34,24 @@ create table  if not exists flower_goods (
     primary key(id)
     )engine=InnoDB default charset=utf8 comment '类型';
 
-mysql> create table flower_attribute(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> attr_name varchar(30) not null comment '属性名称',
-    -> primary key(id)
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+
+CREATE TABLE flower_cate(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    cate_name varchar(30) not null comment '分类名',
+    primary key (id)
+)engine=InnoDB default charset=utf8 comment '分类表';
+
+
+
+create table flower_attribute(
+   id mediumint unsigned not null  auto_increment comment 'id',
+    attr_name varchar(30) not null comment '属性名称',
+    attr_type enum('唯一','可选') not null comment '属性类型',
+     attr_option varchar(250) not null default '' comment '属性可选值',
+     primary key(id)
+   )engine=InnoDB default charset=utf8 comment '属性表';
+
+
 
 mysql> create table flower_privilege(
     -> id mediumint unsigned not null  auto_increment comment 'id',
@@ -64,14 +77,14 @@ mysql> create table flower_privilege(
     -> primary key(id)
     -> )engine=InnoDB default charset=utf8 comment '属性表';
 
-mysql> create table flower_member(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> username varchar(30) not null comment '用户名',
-    -> password varchar(30) not null comment '密码',
-    -> primary key(id),
-    -> face varchar(150) not null comment '头像',
-    -> jibie mediumint unsigned not null default 0 comment '积分'
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+create table flower_member(
+id mediumint unsigned not null  auto_increment comment 'id',
+ username varchar(30) not null comment '用户名',
+  password varchar(32) not null comment '密码',
+  primary key(id),
+   face varchar(150) not null comment '头像',
+  jibie mediumint unsigned not null default 0 comment '积分'
+ )engine=InnoDB default charset=utf8 comment '会员表';
 
 mysql> create table flower_comment(
     -> id mediumint unsigned not null  auto_increment comment 'id',
@@ -83,3 +96,21 @@ mysql> create table flower_comment(
     -> click_count smallint unsigned not null,
     -> primary key(id)
     -> )engine=InnoDB default charset=utf8 comment '属性表';
+
+create table flower_member_lever(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    lever_name varchar(15) not null comment '会员名称',
+    score_upper mediumint unsigned not null  comment '积分上限',
+    score_lower mediumint unsigned not null   comment '积分下限',
+    primary key (id)
+)engine=InnoDB default charset=utf8 comment '会员级别表';
+
+create table flower_member_price(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    price decimal(10,2) not null comment '会员价格',
+    level_id mediumint unsigned not null comment '会员级别id',
+    goods_id mediumint unsigned not null comment '商品id',
+    primary key (id),
+    key level_id(level_id),
+    key goods_id(goods_id)
+)engine=InnoDB default charset=utf8 comment '会员价格表';

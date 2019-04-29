@@ -34,6 +34,13 @@
                                     <input type="text" class="form-control" id="goods_name" name="goods_name"
                                            placeholder="请输入商品名称！">
                                 </div>
+                                <label>所属品牌</label>
+                                <select class="form-control" name="brand_id">
+                                    <option>----请选择----</option>
+                                    <?php foreach($brandData as $k =>$v):?>
+                                    <option value="{$v['id']}">{$v['brand_name']}</option>
+                                    <?php endforeach; ?>
+                                </select>
                                 <div class="form-group">
                                     <label for="logo">Logo</label>
                                     <input type="file" id="logo" name="logo">
