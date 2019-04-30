@@ -41,6 +41,13 @@
                                     <option value="{$v['id']}">{$v['brand_name']}</option>
                                     <?php endforeach; ?>
                                 </select>
+                                <label>分类</label>
+                                <select class="form-control" name="cate_id">
+                                    <option>----请选择----</option>
+                                    <?php foreach($cateData as $k =>$v):?>
+                                    <option value="{$v['id']}">{$v['cate_name']}</option>
+                                    <?php endforeach; ?>
+                                </select>
                                 <div class="form-group">
                                     <label for="logo">Logo</label>
                                     <input type="file" id="logo" name="logo">
@@ -106,7 +113,7 @@
 <script>
     $(document).ready(function () {
         $("#g-3").addClass("active");
-        $("#g-3-2").addClass("active");
+        $("#g-3-1").addClass("active");
     });
 </script>
 </body>

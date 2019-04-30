@@ -53,29 +53,44 @@ create table flower_attribute(
 
 
 
-mysql> create table flower_privilege(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> pri_name varchar(100) not null comment '权限名称',
-    -> module_name varchar(30) not null comment '模块名称',
-    -> controller_name varchar(30) not null  comment '控制器名称',
-    -> action_name varchar(30) not null  comment '方法名称',
-    -> parent_id mediumint unsigned not null comment '上级权限名称',
-    -> primary key(id)
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+create table flower_privilege(
+     id mediumint unsigned not null  auto_increment comment 'id',
+     pri_name varchar(100) not null comment '权限名称',
+    module_name varchar(30) not null comment '模块名称',
+    controller_name varchar(30) not null  comment '控制器名称',
+    action_name varchar(30) not null  comment '方法名称',
+    parent_id mediumint unsigned not null comment '上级权限名称',
+     primary key(id)
+     )engine=InnoDB default charset=utf8 comment '属性表';
 
 
-    mysql> create table flower_admin(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> username varchar(30) not null comment '用户名',
-    -> password varchar(30) not null comment '密码',
-    -> primary key(id)
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+     create table flower_admin(
+        id mediumint unsigned not null  auto_increment comment 'id',
+        username varchar(30) not null comment '用户名',
+        password varchar(30) not null comment '密码',
+        primary key(id)
+    )engine=InnoDB default charset=utf8 comment '管理员表';
 
-    mysql> create table flower_role(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> role_name varchar(30) comment '角色名称',
-    -> primary key(id)
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+    create table flower_role(
+   id mediumint unsigned not null  auto_increment comment 'id',
+    role_name varchar(30) comment '角色名称',
+   primary key(id)
+    )engine=InnoDB default charset=utf8 comment '属性表';
+
+   create table flower_role_pri(
+    pri_id mediumint unsigned not null   comment '权限id',
+    role_id mediumint unsigned not null   comment '角色id'
+    )engine=InncaoDB default charset=utf8 comment '权限角色表';
+
+ create table flower_admin_role(
+    admin_id mediumint unsigned not null   comment '管理员id',
+    role_id mediumint unsigned not null   comment '角色id'
+    )engine=InnoDB default charset=utf8 comment '管理员角色表';
+
+
+
+
+
 
 create table flower_member(
 id mediumint unsigned not null  auto_increment comment 'id',
@@ -86,16 +101,27 @@ id mediumint unsigned not null  auto_increment comment 'id',
   jibie mediumint unsigned not null default 0 comment '积分'
  )engine=InnoDB default charset=utf8 comment '会员表';
 
-mysql> create table flower_comment(
-    -> id mediumint unsigned not null  auto_increment comment 'id',
-    -> goods_id mediumint unsigned not null comment '商品id',
-    -> member_id mediumint unsigned not null comment '会员id',
-    -> content varchar(200) not null comment '内容',
-    -> addtime datetime not null comment '发表时间',
-    -> star tinyint unsigned not null comment '分值',
-    -> click_count smallint unsigned not null,
-    -> primary key(id)
-    -> )engine=InnoDB default charset=utf8 comment '属性表';
+ create table flower_comment(
+    id mediumint unsigned not null  auto_increment comment 'id',
+     goods_id mediumint unsigned not null comment '商品id',
+     member_id mediumint unsigned not null comment '会员id',
+     content varchar(200) not null comment '内容',
+     addtime datetime not null comment '发表时间',
+     star tinyint unsigned not null comment '分值',
+     click_count smallint unsigned not null,
+     primary key(id)
+     )engine=InnoDB default charset=utf8 comment '评论表';
+
+
+    create table flower_reply(
+        id mediumint unsigned not null  auto_increment comment 'id',
+        comment_id mediumint unsigned not null comment '评论id',
+     member_id mediumint unsigned not null comment '会员id',
+     content varchar(200) not null comment '内容',
+     addtime datetime not null comment '回复时间',
+     primary key(id)
+     )engine=InnoDB default charset=utf8 comment '评论回复表';
+
 
 create table flower_member_lever(
     id mediumint unsigned not null  auto_increment comment 'id',
@@ -114,3 +140,66 @@ create table flower_member_price(
     key level_id(level_id),
     key goods_id(goods_id)
 )engine=InnoDB default charset=utf8 comment '会员价格表';
+
+create table flower_goods_number(
+     goods_id mediumint unsigned not null comment '商品id',
+     goods_number mediumint unsigned not null default '0' comment '库存量',
+     good_attr_id varchar(150) not null comment '商品属性表的id',
+     key goods_id(goods_id)
+)engine=InnoDB default charset=utf8 comment '库存表';
+
+
+
+create table flower_cart(
+ id mediumint unsigned not null  auto_increment comment 'id',
+  goods_id mediumint unsigned not null comment '商品id',
+     good_attr_id varchar(150) not null comment '商品属性表的id',
+      member_id mediumint unsigned not null comment '会员id',
+       goods_number mediumint unsigned not null comment '购买的数量',
+       primary key (id)
+)engine=InnoDB default charset=utf8 comment '购物车';
+
+create table flower_order(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    member_id mediumint unsigned not null comment '会员id',
+    addtime datetime not null comment '添加时间',
+    pay_status enum('是','否') not null default '否' comment '支付状态',
+    pay_time int unsigned not null default '0' comment '支付时间',
+    total_price decimal(10,2) not null comment '订单总价',
+    reveive_name varchar(30) not null comment '收货人姓名',
+    reveive_tel varchar(30) not null comment '收货人电话',
+    reveive_province varchar(30) not null comment '收货人所在省',
+    reveive_city varchar(30) not null comment '收货人所在市',
+    reveive_area varchar(30) not null comment '收货人所在区县',
+    reveive_addr varchar(30) not null comment '收货人详细地址',
+    primary key (id)
+)engine=InnoDB default charset=utf8 comment '订单表';
+
+create table flower_order_goods(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    order_id mediumint unsigned not null comment '订单id',
+    goods_id mediumint unsigned not null comment '商品id',
+    good_attr_id varchar(150) not null comment '商品属性表的id',
+    goods_number mediumint unsigned not null comment '购买的数量',
+    price decimal (10,2) not null comment '购买的价格',
+    primary key (id)
+)engine=InnoDB default charset=utf8 comment '订单商品表';
+
+create table flower_order_goods(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    order_id mediumint unsigned not null comment '订单id',
+    goods_id mediumint unsigned not null comment '商品id',
+    good_attr_id varchar(150) not null comment '商品属性表的id',
+    goods_number mediumint unsigned not null comment '购买的数量',
+    price decimal (10,2) not null comment '购买的价格',
+    primary key (id)
+)engine=InnoDB default charset=utf8 comment '订单商品表';
+
+
+create table flower_impression(
+    id mediumint unsigned not null  auto_increment comment 'id',
+    goods_id mediumint unsigned not null comment '商品id',
+    impression_name varchar (30) not null comment '印象名称',
+    impression_count smallint unsigned not null default '1' comment '印象的次数',
+     primary key (id)
+)engine=InnoDB default charset=utf8 comment '印象表';

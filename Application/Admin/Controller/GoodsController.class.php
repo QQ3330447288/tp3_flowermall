@@ -42,9 +42,13 @@ class GoodsController extends Controller
         //取出所有品牌
         $brandModel = D('brand');
         $brandData = $brandModel->select();
+        $cateModel = D('cate');
+        $cateData = $cateModel->select();
+
         //设置页面信息
         $this->assign(array(
             'brandData' => $brandData,
+            'cateData'=>$cateData,
         ));
 
         //1、显示表单

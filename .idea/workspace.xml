@@ -3,19 +3,590 @@
   <component name="ChangeListManager">
     <list default="true" id="251b4a4e-9fc3-42d6-b707-352f8b630351" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/CateController.class.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Goods/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Public/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Public/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/12cf6a5c74297688873998de0720405d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/12cf6a5c74297688873998de0720405d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_28.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_04_28.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_28.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/goods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/shoppingCart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Public/blockcss.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Public/blockcss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Public/blockjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Public/blockjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Public/bottom.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Public/bottom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Public/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Public/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Public/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Public/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/12cf6a5c74297688873998de0720405d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/13dadb9a306d2ec137ee258c0c5ec904.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/346dfcdf6ec8d3c93d33b5eb4f636a21.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/b39761fdd01eadcd4b8a82f371520558.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Data/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_04_28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_04_28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_04_28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Temp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/.hound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/dist/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/browser-bugs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/browser-features.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/core-team.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/glyphicons.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/sass-team.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/showcase.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_data/translations.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/badges.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/breadcrumbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/button-dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/button-groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/glyphicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/input-groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/jumbotron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/labels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/list-group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/navs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/page-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/panels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/progress-bars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/responsive-embed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/thumbnails.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/components/wells.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/helpers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/less.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/responsive-utilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/sass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/css/type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/customizer-variables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/accessibility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/browser-device-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/community.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/grunt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/license.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/third-party-support.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/translations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/getting-started/whats-included.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/affix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/alerts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/dropdowns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/popovers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/tooltips.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/js/transitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/customize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/getting-started.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_includes/nav/migration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_plugins/bridge.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_plugins/bugify.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_pug/customizer-nav.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/_pug/customizer-variables.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/brand/bootstrap-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/brand/bootstrap-punchout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/brand/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/css/docs.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/css/src/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/css/src/pygments-manni.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/flash/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/devices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/expo-lyft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/expo-newsweek.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/expo-riot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/expo-vogue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/img/sass-less.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/customize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/raw-files.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/src/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/src/customizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/Blob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/FileSaver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/autoprefixer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/assets/js/vendor/uglify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/browser-bugs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/components.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/customize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/blog/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/carousel/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/cover/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/cover/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/grid/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/jumbotron-narrow/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/jumbotron/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/jumbotron/jumbotron.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/justified-nav/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/justified-nav/justified-nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar-fixed-top/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar-static-top/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/navbar/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/non-responsive/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/non-responsive/non-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/offcanvas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/offcanvas/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/offcanvas/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/carousel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/dashboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/equal-height-columns.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/grid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/jumbotron-narrow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/jumbotron.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/justified-nav.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/navbar-fixed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/navbar-static.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/navbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/non-responsive.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/offcanvas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/sign-in.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/starter-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/sticky-footer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/screenshots/theme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/signin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/signin/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/starter-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/starter-template/starter-template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/sticky-footer-navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/sticky-footer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/sticky-footer/sticky-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/theme/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/tooltip-viewport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/getting-started.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/migration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/bs-commonjs-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/bs-glyphicons-data-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/bs-lessdoc-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/bs-raw-files-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/configBridge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/npm-shrinkwrap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/grunt/sauce_browsers.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/phantom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/unit/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/vendor/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/vendor/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/vendor/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/affix-with-sticky-footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/affix.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tests/visual/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/.csscomb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/background-variant.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/border-radius.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/center-block.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/clearfix.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/gradients.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/grid-framework.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/hide-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/image.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/nav-divider.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/nav-vertical-align.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/opacity.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/progress-bar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/reset-filter.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/reset-text.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/resize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/responsive-visibility.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/size.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/tab-focus.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/table-row.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/text-emphasis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/text-overflow.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/mixins/vendor-prefixes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/responsive-embed.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/nuget/bootstrap.less.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Common/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/goods.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/jqzoom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/order.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/css/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/20120209D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/20130415i.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/acer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/acer4739.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/beian.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg_hotsale.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg_tit_home.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/bg_xiala.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/btn_check.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/btn_continue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/btn_fillin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/canon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/cart_001.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/cart_goods1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/cart_goods2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/cart_goods3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/checkcode1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/checkcode2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/crazy1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/crazy2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/crazy3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/crazy4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/crazy5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/dell.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/desc9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/dlink.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/flow_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/flow_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/fujitsu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/goods6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/guess1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/guess2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/guess3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/holiday.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/hot1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/hot2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/hot3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/hp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/hpG4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/icon_cologin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/icon_promotion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/index_slide6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/intel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/jdleft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/kexin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/lenove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/lh531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/list_hot1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/list_hot2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/list_hot3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/login_ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/login_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/login_word.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/lottery.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/new1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/new2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/new3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/newicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/newicon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/newicon201301028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/notebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/one4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/one5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/order1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/order2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/order3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/order_btn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/order_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/p-btns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/police.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_l9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_m9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/preview_s9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/qinghuax2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/recommend1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/recommend2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/recommend3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/reg_mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/regist_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/relate_view1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/relate_view2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/relate_view3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/relate_view4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/relate_view5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/samsung.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/samsung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/samsung6800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/sanguo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/scenic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/seagate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/sort_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/taohua.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/tb_th.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/thinkpad e420.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/tit_regist.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/user1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/user3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/view_list1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/view_list2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/view_list3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/viewsonic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/wulin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/images/xin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/cart1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/goods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/jqzoom-core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/Home/js/list.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,22 +599,13 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +613,17 @@
     <findStrings>
       <find>fp</find>
       <find>member</find>
+      <find>num</find>
+      <find>number</find>
+      <find>admin</find>
+      <find>cart</find>
+      <find>addtime</find>
+      <find>comment</find>
+      <find>flower_comment</find>
+      <find>flower_co</find>
+      <find>hr</find>
+      <find>main</find>
+      <find>aside</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,10 +636,6 @@
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Goods/edit.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/MemberModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Public/tmp.html" />
@@ -75,20 +644,43 @@
         <option value="$PROJECT_DIR$/Application/Admin/Controller/MemberLevelController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/MemberLevel/lst.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Goods/lst.html" />
-        <option value="$PROJECT_DIR$/db.sql" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/CateController.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Cate/add.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/CateModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Cate/lst.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/AttributeController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Attribute/lst.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Attribute/add.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/AttributeModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Brand/add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/BrandModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Brand/lst.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Goods/add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/MemberController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Member/lst.html" />
+        <option value="$PROJECT_DIR$/db.sql" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index2.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/blockjs.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/bottom.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/menu.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Public/Common/css/comm.css" />
+        <option value="$PROJECT_DIR$/Public/Home/css/home.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/blockcss.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Public/menu.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Public/header.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="472" />
     <option name="y" value="28" />
     <option name="width" value="930" />
@@ -126,20 +718,6 @@
               <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -148,6 +726,19 @@
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flowerMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flowerMall" type="462c0819:PsiDirectoryNode" />
               <item name="Public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -160,17 +751,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/Admin/View/Attribute" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Public/Home/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\View\Attribute" />
-      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\Model" />
+      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Public\Home\images" />
+      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\View\Member" />
       <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\Controller" />
-      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\View\Cate" />
-      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\View\MemberLevel" />
+      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\Model" />
+      <recent name="C:\Users\Thanlon\Desktop\flowerMall\Application\Admin\View\Brand" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -200,7 +792,8 @@
       <workItem from="1556420657999" duration="1934000" />
       <workItem from="1556427281805" duration="20341000" />
       <workItem from="1556502033033" duration="4175000" />
-      <workItem from="1556529183275" duration="15284000" />
+      <workItem from="1556529183275" duration="22686000" />
+      <workItem from="1556591506520" duration="17037000" />
     </task>
     <task id="LOCAL-00001" summary="Add JS plug-in：LayDate">
       <created>1556437243438</created>
@@ -216,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556443356571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Complete MemberLevel Module">
+      <created>1556547650252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556547650252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43842000" />
+    <option name="totallyTimeSpent" value="68281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,10 +832,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26641223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23279649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,47 +865,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Complete MemberLevel Module" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -319,9 +877,6 @@
           <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/blockcss.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/blockjs.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -337,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -355,37 +903,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/MemberModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/tmp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="88" lean-forward="true" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#113#129#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/MemberModel.class.php" />
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/tmp.html" />
     <entry file="file://$PROJECT_DIR$/Application/Admin/Model/MemberLevelModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -393,13 +912,6 @@
           <folding>
             <element signature="e#113#129#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -421,31 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="27" column="110" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="106" selection-start-line="29" selection-start-column="106" selection-end-line="29" selection-end-column="106" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -508,10 +995,240 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Brand/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="143" column="51" lean-forward="true" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Brand/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BrandController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/BrandModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/GoodsModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="118" selection-start-line="20" selection-start-column="118" selection-end-line="20" selection-end-column="118" />
+          <folding>
+            <element signature="e#113#129#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="44" column="74" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/MemberController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Member/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="117" column="21" lean-forward="true" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/blockjs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/bottom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="e#239#245#0" expanded="true" />
+            <element signature="e#246#252#0" expanded="true" />
+            <element signature="e#368#374#0" expanded="true" />
+            <element signature="e#374#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/blockcss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Common/css/comm.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/blockcss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="51" column="51" lean-forward="true" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -16,9 +16,9 @@ header("content-type:text/html;charset=utf-8");
 class GoodsModel extends Model
 {
     //添加时调用create方法允许接收的字段
-    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id';
+    protected $insertFields = 'goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id,cate_id';
     //添加时调用create方法允许接收的字段
-    protected $updateFields = 'goods_id,goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id';
+    protected $updateFields = 'goods_id,goods_name,shop_price,market_price,goods_desc,logo,is_on_sale,brand_id,cate_id';
 
     //定义验证规则
     //1、表示表单必须验证；默认0是：存在字段就验证；2、值不为空的时候验证
