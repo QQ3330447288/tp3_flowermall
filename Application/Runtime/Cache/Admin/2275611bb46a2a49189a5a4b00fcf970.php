@@ -1,11 +1,18 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>管理员登录</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <include file="Public/blockcss"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/Public/Admin/css/font-awesome.min.css">
+<link rel="stylesheet" href="/Public/Admin/css/ionicons.min.css">
+<link rel="stylesheet" href="/Public/Admin/css/AdminLTE.min.css">
+<link rel="stylesheet" href="/Public/Admin/css/_all-skins.min.css">
+<link rel="stylesheet" href="/Public/Admin/css/datepicker3.css">
+
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">

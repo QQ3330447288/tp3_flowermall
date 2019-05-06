@@ -14,4 +14,14 @@ class AdminController extends Controller
     {
         $this->display();
     }
+
+    public function lst()
+    {
+        $model = D('admin');
+        $adminDate = $model->select();
+        $this->assign(array(
+            'adminDate' => $adminDate,
+        ));
+        $this->display();
+    }
 }

@@ -1,0 +1,155 @@
+[ 2019-04-30T15:47:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005844s ]
+ERR: 非法操作:index
+
+[ 2019-04-30T15:47:45+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003238s ]
+ERR: 非法操作:index
+
+[ 2019-04-30T15:47:49+08:00 ] 127.0.0.1 /index.php/Admin/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+ERR: 非法操作:index
+
+[ 2019-04-30T20:44:48+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.177218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008616s ]
+
+[ 2019-04-30T21:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009130s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0410s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008295s ]
+
+[ 2019-04-30T21:31:13+08:00 ] 127.0.0.1 /index.php/Admin/brand/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+SQL: SHOW COLUMNS FROM `flower_brand` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `flower_brand`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 230 行.
+NOTIC: [8] Undefined variable: page C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004129s ]
+
+[ 2019-04-30T21:31:15+08:00 ] 127.0.0.1 /index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+SQL: SHOW COLUMNS FROM `flower_cate` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `flower_cate`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000495s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000734s ]
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 224 行.
+NOTIC: [8] Undefined index: goods_id C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 226 行.
+NOTIC: [8] Undefined variable: page C:\Users\Thanlon\Desktop\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 235 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004032s ]
+
+[ 2019-04-30T21:31:23+08:00 ] 127.0.0.1 /index.php/Admin/Cate/comment_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+ERR: 非法操作:comment_list
+
