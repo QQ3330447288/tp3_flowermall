@@ -99,6 +99,7 @@ id mediumint unsigned not null  auto_increment comment 'id',
   primary key(id),
    face varchar(150) not null comment '头像',
   jibie mediumint unsigned not null default 0 comment '积分'
+  primary key(id)
  )engine=InnoDB default charset=utf8 comment '会员表';
 
  create table flower_comment(
