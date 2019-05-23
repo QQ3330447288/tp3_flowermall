@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全部鲜花</title>
+    <include file="Public/blockcss"/>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container">
+    <include file="Public/menu"/>
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="__MODULE__">全部鲜花</a></li>
+            <li class="active"><?php echo $info['goods_name']?></li>
+        </ol>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <img src="/Public/Uploads/<?php echo $info['big_logo']?>" alt=""
+                     class="img-responsive img-thumbnail"
+                     data-bd-imgshare-binded="1">
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h5><?php echo $info['goods_name']?></h5>
+            <table class="table table-bordered">
+                <tr>
+                    <td style="background:#ffeff1">品牌</td>
+                    <td><?php echo $info['goods_name']?></td>
+                </tr>
+                <tr>
+                    <td style="background:#ffeff1">分类</td>
+                    <td><?php echo $info['goods_name']?></td>
+                </tr>
+                <tr>
+                    <td style="background:#ffeff1">配送范围</td>
+                    <td>本地区各市县、乡镇、街道（市区内免费配送）</td>
+                </tr>
+                <tr>
+                    <td style="background:#ffeff1">附送赠品</td>
+                    <td>免费附送精美贺卡，代写你的祝福。</td>
+                </tr>
+                <tr>
+                    <td style="background:#ffeff1">商品说明</td>
+                    <td>由于手工包扎，可能在花束的形式和搭配上与图片不完全一致，但我们保证鲜花的主花材品种、数量、颜色与说明一致</td>
+                </tr>
+            </table>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    优惠价 <span style="color: red">￥</span><span
+                        style="color: red;font-size: 20px;font-weight: bold"><?php echo $info['shop_price']?></span>
+                    <span style="font-size: 20px"> | </span>
+                    <del>市场价格：￥<?php echo $info['market_price']?></del>
+                    &nbsp;&nbsp;&nbsp;&nbsp;累计销量
+                    <span style="color: red;"><?php echo $info['shop_price']?></span>
+                    &nbsp;&nbsp;<span>评价数量</span>
+                    <span style="color: red;"><?php echo $info['shop_price']?></span>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    数量：
+                </div>
+            </div>
+            <p>
+                <button type="button" class="btn btn-primary btn-lg" style="background:#f46;border-radius: 0px;">立即购买
+                </button>
+                <button type="button" class="btn btn-default btn-lg" style="background:#ffeded;border-radius: 0px;">
+                    加入购物车
+                </button>
+            </p>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 20px">
+        <div class="col-md-9 pull-right">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active" id="goods_desc"><a href="javascript:;">商品详情</a></li>
+                <li role="presentation" id="comment"><a href="javascript:;">评价信息</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="">
+        <div class="col-md-9 pull-right">
+            <div id="desc">
+                <?php echo $info['goods_desc']?>
+            </div>
+            <div id="comm" hidden="hidden">
+                暂无评价信息
+            </div>
+        </div>
+    </div>
+    <include file="Public/bottom"/>
+</div>
+</body>
+<include file="Public/blockjs"/>
+<script>
+    $(document).ready(
+        $('#goods_desc').click(function () {
+            $('#goods_desc').addClass('active');
+            $('#comment').removeClass('active');
+            $('#comm').attr('hidden', 'hidden');
+            $('#desc').removeAttr('hidden');
+        }),
+        $('#comment').click(function () {
+            $('#comment').addClass('active');
+            $('#goods_desc').removeClass('active');
+            $('#desc').attr('hidden', 'hidden');
+            $('#comm').removeAttr('hidden');
+        })
+    )
+</script>
+</html>

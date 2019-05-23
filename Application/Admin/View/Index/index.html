@@ -26,6 +26,9 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">系统设置</h3>
                         </div>
+                        <div class="box-body">
+                            <h4>当前时间：<span id="show"></span></h4>
+                        </div>
                         <br>
                         <br>
                         <br>
@@ -68,7 +71,25 @@
     $(document).ready(function () {
         $("#g-1").addClass("active");
         $("#g-1-1").addClass("active");
+        showTime();
     });
+    function showTime() {
+        var nowTime = new Date();
+        var years = nowTime.getFullYear();
+        var mouths = nowTime.getMonth();
+        var days = nowTime.getDate();
+        var hours = nowTime.getHours();
+        var minites = nowTime.getMinutes();
+        var seconds = nowTime.getSeconds();
+        var time = years + "年";
+        time += (mouths + 1) + "月" + days + "日";
+        time += (hours < 10 ? "0" : "") + hours;
+        time += (minites < 10 ? ":0" : ":") + minites;
+        time += (seconds < 10 ? ":0" : ":") + seconds;
+        time += (hours > 12) ? "PM" : "AM";
+        document.getElementById("show").innerHTML = time;
+        setTimeout("showTime()", 1000);
+    }
 </script>
 </body>
 </html>
