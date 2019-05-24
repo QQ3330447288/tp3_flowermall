@@ -22,7 +22,7 @@
                 <?php endif;?>
             </div>
             <div class="col-md-2 pull-right text-right">
-                订单查询&nbsp;&nbsp;购物车0件
+                <a href="/index.php/Home/index/cart">购物车</a>
             </div>
         </div>
     </div>
@@ -30,32 +30,31 @@
 <div class="container">
     <div class="row">
     <div class="col-md-6 col-md-offset-3">
-        <form class="navbar-form navbar-left" role="search">
-            <div class="form-group input-group">
-                <input type="text" size="60" class="form-control" placeholder="百合" id="searchArt" style="border-color: #f46;
-    border-width: 2px;">
-                <span class="input-group-btn">
-                        <a class="btn btn-default" id="search" style="border-color: #f46;
-    border-width: 1px;background:#f46;color:#FFFFFF; ">搜索</a>
-                </span>
-            </div>
-        </form>
+<!--        <form class="navbar-form navbar-left" role="search">-->
+<!--            <div class="form-group input-group">-->
+<!--                <input type="text" size="60" class="form-control" placeholder="百合" id="searchArt" style="border-color: #f46;-->
+<!--    border-width: 2px;">-->
+<!--                <span class="input-group-btn">-->
+<!--                        <a class="btn btn-default" id="search" style="border-color: #f46;-->
+<!--    border-width: 1px;background:#f46;color:#FFFFFF; ">搜索</a>-->
+<!--                </span>-->
+<!--            </div>-->
+<!--        </form>-->
     </div>
     <div class="col-md-3 text-right">
-        <a href=""><img src="http://cdn.huaduocai.net/Storage/logo/1/5057119636264957.png" width="130" height="40"></a>
+        <a href="/index.php/Home/index/orderlst"><img src="http://cdn.huaduocai.net/Storage/logo/1/5057119636264957.png" width="130" height="40"></a>
     </div>
 </div>
 <div class="row" style="margin-top: 20px">
     <ul class="nav nav-pills nav-justified">
-        <li role="presentation"><a href="#"></a></li>
-        <li role="presentation"><a href="#" style="color: #666;">全部鲜花</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">爱情鲜花</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">生日鲜花</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">开业花篮</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">永生花</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">绿植</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">高端鲜花</a></li>
-        <li role="presentation"><a href="#" style="color: #666;">精品鲜花</a></li>
+        <li role="presentation" id="allflower"><a href="/index.php/Home" id="allcolor">全部鲜花</a></li>
+        <li role="presentation" id="loveflower"><a href="/index.php/Home/index/loveflower" id="lovecolor">爱情鲜花</a></li>
+        <li role="presentation" id="birflower"><a href="/index.php/Home/index/birflower"  id="bircolor">生日鲜花</a></li>
+<!--        <li role="presentation" id="openflower"><a href="/index.php/Home/index/openflower"  id="opencolor">开业花篮</a></li>-->
+        <li role="presentation" id="liveflower"><a href="/index.php/Home/index/liveflower" id="livecolor">永生花</a></li>
+        <li role="presentation" id="blueflower"><a href="/index.php/Home/index/blueflower"  id="bluecolor">绿植</a></li>
+        <li role="presentation" id="highendflower"><a href="/index.php/Home/index/highendflower"  id="highendcolor">高端鲜花</a></li>
+<!--        <li role="presentation"><a href="#" style="color: #666;">精品鲜花</a></li>-->
     </ul>
     <hr style="border-width:5px;border-top:3px solid #f46;margin-top: 0;margin-bottom:3px;">
 </div>
@@ -74,15 +73,20 @@
             </div>
         </div>
         <div class="col-md-9">
-            <h5><?php echo $info['goods_name']?></h5>
+            <h5><?php echo $data['goods_name']?></h5>
             <table class="table table-bordered">
+
                 <tr>
                     <td style="background:#ffeff1">品牌</td>
-                    <td><?php echo $info['goods_name']?></td>
+                    <?php foreach($data as $k=>$v): ?>
+                    <td><?php echo $v['brand_name']?></td>
+                    <?php endforeach; ?>
                 </tr>
                 <tr>
                     <td style="background:#ffeff1">分类</td>
-                    <td><?php echo $info['goods_name']?></td>
+                    <?php foreach($datacate as $k=>$v): ?>
+                    <td><?php echo $v['cate_name']?>爱情鲜花</td>
+                    <?php endforeach; ?>
                 </tr>
                 <tr>
                     <td style="background:#ffeff1">配送范围</td>
@@ -103,23 +107,17 @@
                         style="color: red;font-size: 20px;font-weight: bold"><?php echo $info['shop_price']?></span>
                     <span style="font-size: 20px"> | </span>
                     <del>市场价格：￥<?php echo $info['market_price']?></del>
-                    &nbsp;&nbsp;&nbsp;&nbsp;累计销量
-                    <span style="color: red;"><?php echo $info['shop_price']?></span>
-                    &nbsp;&nbsp;<span>评价数量</span>
-                    <span style="color: red;"><?php echo $info['shop_price']?></span>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    数量：
+                    &nbsp;库存：200
                 </div>
             </div>
             <p>
-                <button type="button" class="btn btn-primary btn-lg" style="background:#f46;border-radius: 0px;">立即购买
-                </button>
-                <button type="button" class="btn btn-default btn-lg" style="background:#ffeded;border-radius: 0px;">
+                <a href="/index.php/Home/index/order/id/<?php echo $info['goods_id']?>" type="button"
+                   class="btn btn-primary btn-lg" style="background:#f46;border-radius: 0px;">立即购买
+                </a>
+                <a href="/index.php/Home/index/cart/id/<?php echo $info['goods_id']?>" type="button"
+                   class="btn btn-default btn-lg" style="background:#ffeded;border-radius: 0px;">
                     加入购物车
-                </button>
+                </a>
             </p>
         </div>
     </div>
@@ -134,10 +132,34 @@
     <div class="row" style="">
         <div class="col-md-9 pull-right">
             <div id="desc">
-                <?php echo $info['goods_desc']?>
+                <?php echo htmlspecialchars_decode($info['goods_desc'])?>
             </div>
             <div id="comm" hidden="hidden">
-                暂无评价信息
+                <?php foreach($commentinfo as $k=>$v): ?>
+                    <?php echo $v['content']?>
+                <?php endforeach; ?>
+                <?php echo $commentinfo['content']?>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <span>2019-05-01 17:06:34</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>发货快 准时 负责 帮别人订的花 结果他不方便接电话</span>
+                    <br><br><br>
+                    <span>2019-05-23 17:05:32</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>不错不错！快递很准时，花也很新鲜，包装很好！</span>
+                    <br><br><br>
+                    <span>2019-05-23 12:05:52</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>非常完美，花很新鲜，送花的师傅非常准时。好评好评超级好评</span>
+                    <br><br><br>
+                    <span>2019-05-23 11:05:03</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>跟图片上拍的一样的，花非常新鲜，最重要的是准时送到，非常给力</span>
+                    <br><br><br>
+                    <span>2019-05-23 08:05:32</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>非常棒，说九点送真的就是九点送到了，卖家态度特别好</span>
+                    <br><br><br>
+                    <span>2019-05-22 21:05:04</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>每年老板娘生日花都在这里订购，很满意！关键是踏实</span>
+                </div>
             </div>
         </div>
     </div>

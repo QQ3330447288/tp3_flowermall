@@ -102,11 +102,11 @@
                             <span class="glyphicon"></span>分类列表
                         </a>
                     </li>
-                    <li id="g-3-3">
-                        <a href="/index.php/Admin/Attribute/lst">
-                            <span class="glyphicon"></span>属性列表
-                        </a>
-                    </li>
+<!--                    <li id="g-3-3">-->
+<!--                        <a href="/index.php/Admin/Attribute/lst">-->
+<!--                            <span class="glyphicon"></span>属性列表-->
+<!--                        </a>-->
+<!--                    </li>-->
                     <li id="g-3-4">
                         <a href="/index.php/Admin/brand/lst">
                             <span class="glyphicon"></span>品牌列表
@@ -146,11 +146,11 @@
                             <span class="glyphicon"></span> 评论列表
                         </a>
                     </li>
-                    <li>
-                        <a href="/index.php/Admin/comment/lst">
-                            <span class="glyphicon"></span> 回复列表
-                        </a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="/index.php/Admin/comment/lst">-->
+<!--                            <span class="glyphicon"></span> 回复列表-->
+<!--                        </a>-->
+<!--                    </li>-->
                 </ul>
             </li>
             <li class="treeview" id="g-6">

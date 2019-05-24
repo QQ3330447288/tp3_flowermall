@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱情鲜花</title>
+    <include file="Public/blockcss"/>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container">
+    <include file="Public/menu"/>
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="">订单 /</a></li>
+        </ol>
+        <div class="col-md-4" style="">
+            <form action="">
+                <div class="form-group">
+                    <label for="">收花人姓名</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人姓名">
+                </div>
+                <div class="form-group">
+                    <label for="">收花人手机号</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人手机号">
+                </div>
+                <div class="form-group">
+                    <label for="">收花人所在省</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在省">
+                </div>
+                <div class="form-group">
+                    <label for="">收花人所在市</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在市">
+                </div>
+                <div class="form-group">
+                    <label for="">收花人所在县</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在县">
+                </div>
+                <div class="form-group">
+                    <label for="">收花人详细地址</label>
+                    <input type="text" class="form-control" id="" placeholder="请输入收花人详细地址">
+                </div>
+                <table class="table table-hover">
+                    <tr>
+                        <td>商品名称</td>
+                        <td>商品价格</td>
+                        <td>商品数量</td>
+                        <td>总价</td>
+                    </tr>
+                    <tr>
+                        <td><?php echo $goods_data['goods_name']?></td>
+                        <td><img src="/Public/Uploads/<?php echo $goods_data['sm_logo']?>" alt=""
+                                 class="img-responsive img-thumbnail"
+                                 data-bd-imgshare-binded="1"></td>
+                        <td>
+                            <input type="text" size="3">
+                        </td>
+                        <td><?php echo $goods_data['shop_price']?></td>
+                    </tr>
+                </table>
+                <input class="pull-right btn btn-primary" style="background: red" type="submit" value="结算">
+            </form>
+        </div>
+    </div>
+    <include file="Public/bottom"/>
+</div>
+</body>
+<include file="Public/blockjs"/>
+<script>
+    $(document).ready(function () {
+        $("#birflower").addClass("light");
+        $("#bircolor").addClass("lovecolor");
+    });
+</script>
+</html>

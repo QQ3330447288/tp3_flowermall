@@ -11,7 +11,6 @@ class GoodsController extends Controller
     //显示和处理表单
     public function add()
     {
-
         //处理表单-判断用户是否提交表单
         if (IS_POST) {
             //D函数:生成模型,模型名和表名相同
@@ -48,7 +47,7 @@ class GoodsController extends Controller
         //设置页面信息
         $this->assign(array(
             'brandData' => $brandData,
-            'cateData'=>$cateData,
+            'cateData' => $cateData,
         ));
 
         //1、显示表单

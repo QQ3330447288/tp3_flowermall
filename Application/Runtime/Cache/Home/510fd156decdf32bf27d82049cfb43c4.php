@@ -20,7 +20,7 @@
     </div>
     <div class="login-box-body">
         <p class="login-box-msg"></p>
-        <form action="/index.php/home/member/register" method="post">
+        <form action="/index.php/Home/Member/register.html" method="post">
             <div class="form-group has-feedback">
                 <input name="username" type="text" class="form-control" placeholder="请输入账号！">
                 <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

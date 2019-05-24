@@ -146,11 +146,11 @@
                             <span class="glyphicon"></span> 评论列表
                         </a>
                     </li>
-                    <li>
-                        <a href="/index.php/Admin/comment/lst">
-                            <span class="glyphicon"></span> 回复列表
-                        </a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="/index.php/Admin/comment/lst">-->
+<!--                            <span class="glyphicon"></span> 回复列表-->
+<!--                        </a>-->
+<!--                    </li>-->
                 </ul>
             </li>
             <li class="treeview" id="g-6">

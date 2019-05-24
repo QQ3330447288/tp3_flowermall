@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱情鲜花</title>
+    <include file="Public/blockcss"/>
+    <style rel="stylesheet">
+        .light{
+               background: #f46;
+        }
+        .lovecolor{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container">
+    <include file="Public/menu"/>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="color:#f46;font-weight: bold;background-color: #fff;">热门推荐</div>
+                <div class="panel-body">
+                    <?php foreach($hot as $k=>$v):?>
+                    <ul class="list-group">
+                        <div class="row">
+                            <a href="__MODULE__/index/goods/id/<?php echo $v['goods_id']?>">
+                                <div class="col-md-6">
+                                    <img src="__PUBLIC__/Home/images/tmp1.jpg" width="50px" alt="1">
+                                </div>
+                            </a>
+                            <div class="col-md-6">
+                                <span style="font-size: 12px"> <?php echo $v['goods_name']; ?></span>
+                                <p style="color: #f46;font-size: 12px">￥  <?php echo $v['shop_price']; ?><br></p>
+                            </div>
+                        </div>
+                    </ul>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <ul class="list-group">
+                <li class="list-group-item" style="background: #f7f7f7">
+                    <span style="color:#f46;font-weight: bold">价格:</span>
+                    <a href="javascript:;" class="btn btn-default">
+                        价格 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
+                    </a>
+                    &nbsp; &nbsp;
+                    <a href="javascript:;" class="btn btn-default">
+                        价格 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
+                    </a>
+                </li>
+                <li class="list-group-item" style="background: #f7f7f7">
+                    <span style="color:#f46;font-weight: bold">排序:</span>
+                    <a href="javascript:;" class="btn btn-default">
+                        销量 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="javascript:;" class="btn btn-default">
+                        销量 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="javascript:;" class="btn btn-default">
+                        时间 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="javascript:;" class="btn btn-default">
+                        时间 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="panel-body text-center">
+                <?php foreach($data as $k=>$v):?>
+                <div class="col-md-3" style="padding: 5px">
+                    <a href="__MODULE__/index/goods/id/<?php echo $v['goods_id']?>">
+                        <img src="/Public/Uploads/<?php echo $v['big_logo']?>" alt=""
+                             class="img-responsive img-thumbnail"
+                             data-bd-imgshare-binded="1">
+<!--                        <?php echo $v['cate_id'];?>-->
+<!--                        <?php echo $v['cate_name'];?>-->
+<!--                        <?php echo $v['id'];?>-->
+                    </a>
+                    <p> <?php echo $v['goods_name']; ?><span
+                            style="color: #f46;font-weight: bold">￥<?php echo $v['shop_price']; ?></span></p>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </div>
+    <include file="Public/bottom"/>
+</div>
+</body>
+<include file="Public/blockjs"/>
+<script>
+    $(document).ready(function () {
+        $("#loveflower").addClass("light");
+        $("#lovecolor").addClass("lovecolor");
+    });
+</script>
+</html>

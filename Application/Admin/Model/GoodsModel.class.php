@@ -91,7 +91,7 @@ class GoodsModel extends Model
     /**
      * 搜索、排序、分页
      */
-    public function search($perPger = 4)
+    public function search($perPger = 10)
     {
         /***************start搜索*******************/
         $where = array();//空人where条件
@@ -153,7 +153,7 @@ class GoodsModel extends Model
         //取某一页的数据
 //        $data = $this->limit($pageObj->firstRow . ',' . $pageObj->listRows)->select();
         $data = $this->order("$orderby $orderway")
-            ->field('a.*,b.brand_name')
+            ->field('a.*,b.*')
             ->alias('a')
             ->join('LEFT JOIN __BRAND__ b ON a.brand_id=b.id')
             ->where($where)
@@ -183,6 +183,159 @@ class GoodsModel extends Model
 
     }
 
+    public function searchLove()
+    {
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '2');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function searchCateBrand($id)
+    {
+//        ->join('LEFT JOIN __BRAND__ b ON a.brand_id=b.id LEFT JOIN flower_cate c ON a.cate_id=c.id')
+        $where['goods_id'] = array('eq', $id);
+//        var_dump($id);
+//        die();
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN __BRAND__ b ON a.brand_id=b.id')
+//            ->join('LEFT JOIN __BRAND__ b LEFT JOIN flower_cate c ON a.brand_id=b.id AND a.cate_id=c.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+//        var_dump($data);
+//        die();
+        //返回数据
+//        $databrand = $this
+//            ->field('a.*,c.*')
+//            ->alias('a')
+//            ->join('LEFT JOIN __CATE__ C ON a.cate_id=c.id')
+//            ->where($where)
+//            ->select();#__BRAND__或者flower_brand
+////        var_dump($databrand);
+////        die();
+        return array(
+            'data' => $data,
+//            'databrand' => $databrand,
+        );
+    }
+
+    public function searchCate($id)
+    {
+        $where['goods_id'] = array('eq', $id);
+        $databrand = $this
+            ->field('a.*,c.*')
+            ->alias('a')
+            ->join('LEFT JOIN __CATE__ C ON a.cate_id=c.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        return array(
+            'databrand' => $databrand,
+        );
+    }
+
+    public function searchbir()
+    {
+        $num = "爱情";
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '3');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function searchopen()
+    {
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '4');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function searchlive()
+    {
+        $num = "爱情";
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '5');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function searchblue()
+    {
+        $num = "爱情";
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '6');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function searchhigh()
+    {
+        $goods_name = I('get.goods_name');
+        $where['cate_id'] = array('eq', '7');
+        $data = $this
+            ->field('a.*,b.*')
+            ->alias('a')
+            ->join('LEFT JOIN flower_cate b ON a.cate_id=b.id')
+            ->where($where)
+            ->select();#__BRAND__或者flower_brand
+        //返回数据
+        return array(
+            'data' => $data,
+        );
+    }
+
+    public function orderlst($id)
+    {
+        $where['goods_id'] = array('eq', $id);
+        $data = $this
+            ->where($where)
+            ->select();
+        return array(
+            '$data' => $data,
+        );
+    }
 
 }
 

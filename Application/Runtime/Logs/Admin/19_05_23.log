@@ -695,3 +695,327 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002860s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003044s ]
 
+[ 2019-05-23T21:27:35+08:00 ] 127.0.0.1 /index.php/Admin/order/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.1126s ]
+SQL: SELECT * FROM `flower_order`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000362s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 229 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 231 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6929b1ce86d5fcc660e84cb37a1b0795.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006652s ]
+
+[ 2019-05-23T21:29:06+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002404s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,4   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003042s ]
+
+[ 2019-05-23T21:29:09+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `flower_brand` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `flower_brand`  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2019-05-23T21:29:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=id_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0218s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id asc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002398s ]
+
+[ 2019-05-23T21:29:20+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=price_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0439s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY shop_price asc LIMIT 0,4   [ RunTime:0.0480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000762s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005336s ]
+
+[ 2019-05-23T21:29:25+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=%E6%83%85%E4%B9%8B%E6%89%80%E8%87%B3+&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=price_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0806s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` WHERE `goods_name` LIKE '%情之所至%' LIMIT 1   [ RunTime:0.0613s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_name` LIKE '%情之所至%' ORDER BY shop_price asc LIMIT 0,4   [ RunTime:0.0037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002544s ]
+
+[ 2019-05-23T21:29:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=%E6%83%85%E4%B9%8B%E6%89%80%E8%87%B3&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=price_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` WHERE `goods_name` LIKE '%情之所至%' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_name` LIKE '%情之所至%' ORDER BY shop_price asc LIMIT 0,4   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2019-05-23T21:29:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=%E6%83%85%E4%B9%8B%E6%89%80%E8%87%B3+2&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=price_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0348s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` WHERE `goods_name` LIKE '%情之所至 2%' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_name` LIKE '%情之所至 2%' ORDER BY shop_price asc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004075s ]
+
+[ 2019-05-23T21:29:43+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst?goods_name=%E6%83%85%E4%B9%8B%E6%89%80%E8%87%B3+&firstPrice=&lastPrice=&is_on_sale=&firstTime=&stopTime=&order_by=price_asc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` WHERE `goods_name` LIKE '%情之所至%' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT a.*,b.brand_name FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_name` LIKE '%情之所至%' ORDER BY shop_price asc LIMIT 0,4   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003371s ]
+
+[ 2019-05-23T21:29:46+08:00 ] 127.0.0.1 /index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+SQL: SHOW COLUMNS FROM `flower_cate` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `flower_cate`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 225 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 227 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 236 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005068s ]
+
+[ 2019-05-23T21:29:49+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+SQL: SHOW COLUMNS FROM `flower_attribute` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `flower_attribute`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\d12b6d6cfaa93439758dd8f98ee55ea0.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\d12b6d6cfaa93439758dd8f98ee55ea0.php 第 231 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\d12b6d6cfaa93439758dd8f98ee55ea0.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006252s ]
+
+[ 2019-05-23T21:29:51+08:00 ] 127.0.0.1 /index.php/Admin/brand/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003901s ]
+SQL: SHOW COLUMNS FROM `flower_brand` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `flower_brand`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 229 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 231 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\6be123300bd3bf15436cbc79ad313de4.php 第 240 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2019-05-23T21:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Brand/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007423s ]
+ERR: 非法操作:del
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱情鲜花</title>
+    <include file="Public/blockcss"/>
+</head>
+<body>
+<include file="Public/header"/>
+<div class="container">
+    <include file="Public/menu"/>
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="">订单 /</a></li>
+        </ol>
+        <div class="col-md-8" style="">
+            <form action="">
+                <table class="table table-bordered text-center">
+                    <?php echo $goodsdata['goods_name']?>
+                    <?php foreach($goodsdata as $k=>$v):?>
+                    <tr>
+                        <td>商品编号</td>
+                        <td>商品图示</td>
+                        <td>商品名称</td>
+                        <td>商品价格</td>
+                    </tr>
+                    <tr>
+                        <td><?php echo $v['goods_id']?></td>
+                        <td><img src="/Public/Uploads/<?php echo $v['sm_logo']?>" alt=""
+                                 class="img-responsive img-thumbnail"
+                                 data-bd-imgshare-binded="1"></td>
+                        <td><?php echo $v['goods_name']?></td>
+                        <td><?php echo $v['shop_price']?></td>
+                    </tr>
+                    <?php endforeach; ?>
+                </table>
+                <input class="pull-right btn btn-primary" style="background: #ff4a6b" type="submit" value="结算">
+            </form>
+        </div>
+    </div>
+    <include file="Public/bottom"/>
+</div>
+</body>
+<include file="Public/blockjs"/>
+<script>
+    $(document).ready(function () {
+        $("#birflower").addClass("light");
+        $("#bircolor").addClass("lovecolor");
+    });
+</script>
+</html>
