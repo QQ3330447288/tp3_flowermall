@@ -28,6 +28,10 @@ class MemberModel extends Model
         array('username', 'require', '用户名不能为空！', 1),
         array('password', 'require', '密码不能为空！', 1),
     );
+    public $_addmember_validate = array(
+        array('username', 'require', '用户名不能为空！', 1),
+        array('password', 'require', '密码不能为空！', 1),
+    );
 
     public function login()
     {

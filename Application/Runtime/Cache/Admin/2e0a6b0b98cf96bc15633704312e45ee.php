@@ -65,8 +65,8 @@
                      alt="User Image">
             </div>
             <div class="pull-left info">
-                <p> <?php echo session('a_id');?></p>
-<!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
+                <p> <?php echo session('a_username');?></p>
+                <!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
             </div>
         </div>
         <ul class="sidebar-menu">
@@ -102,11 +102,11 @@
                             <span class="glyphicon"></span>分类列表
                         </a>
                     </li>
-<!--                    <li id="g-3-3">-->
-<!--                        <a href="/index.php/Admin/Attribute/lst">-->
-<!--                            <span class="glyphicon"></span>属性列表-->
-<!--                        </a>-->
-<!--                    </li>-->
+                    <!--                    <li id="g-3-3">-->
+                    <!--                        <a href="/index.php/Admin/Attribute/lst">-->
+                    <!--                            <span class="glyphicon"></span>属性列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     <li id="g-3-4">
                         <a href="/index.php/Admin/brand/lst">
                             <span class="glyphicon"></span>品牌列表
@@ -131,6 +131,11 @@
                             <span class="glyphicon"></span>会员列表
                         </a>
                     </li>
+                    <li id="g-4-3">
+                        <a href="/index.php/Admin/Member/add">
+                            <span class="glyphicon"></span>添加会员
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -146,11 +151,11 @@
                             <span class="glyphicon"></span> 评论列表
                         </a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="/index.php/Admin/comment/lst">-->
-<!--                            <span class="glyphicon"></span> 回复列表-->
-<!--                        </a>-->
-<!--                    </li>-->
+                    <!--                    <li>-->
+                    <!--                        <a href="/index.php/Admin/comment/lst">-->
+                    <!--                            <span class="glyphicon"></span> 回复列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                 </ul>
             </li>
             <li class="treeview" id="g-6">
@@ -174,19 +179,24 @@
                     <span class="label label-primary pull-right">3</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li id="g-7-1">
-                        <a href="/index.php/Admin/Admin/lst">
-                            <span class="glyphicon"></span>权限列表
-                        </a>
-                    </li>
-                    <li id="g-7-2">
-                        <a href="/index.php/Admin/Admin/lst">
-                            <span class="glyphicon"></span>角色列表
-                        </a>
-                    </li>
+                    <!--                    <li id="g-7-1">-->
+                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
+                    <!--                            <span class="glyphicon"></span>权限列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
+                    <!--                    <li id="g-7-2">-->
+                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
+                    <!--                            <span class="glyphicon"></span>角色列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     <li id="g-7-3">
                         <a href="/index.php/Admin/Admin/lst">
                             <span class="glyphicon"></span>管理员列表
+                        </a>
+                    </li>
+                    <li id="g-7-2">
+                        <a href="/index.php/Admin/Admin/add">
+                            <span class="glyphicon"></span>添加管理员
                         </a>
                     </li>
                 </ul>
@@ -208,14 +218,14 @@
                     <div class="box box-primary">
                         <div class="box-header">
                             <h3 class="box-title">管理员列表</h3>
+                            <a href="/index.php/Admin/admin/add" class="btn btn-primary pull-right">添加管理员</a>
                         </div>
                         <table class="table table-hover text-center" style="margin-top: 5px">
                             <tbody>
                             <tr>
-                                <th>id</th>
-                                <th>用户名</th>
-                                <th>密码</th>
-                                <th>角色</th>
+                                <th>管理员编号</th>
+                                <th>管理员账号</th>
+                                <th>管理员密码</th>
                                 <th>操作事项</th>
                             </tr>
                             <?php foreach($adminDate as $k=>$v): ?>
@@ -223,11 +233,10 @@
                                 <td><?php echo ($v['id']); ?></td>
                                 <td><?php echo ($v['username']); ?></td>
                                 <td><?php echo ($v['password']); ?></td>
-                                <td>超级管理员</td>
                                 <td>
-                                    <a href="<?php echo U('edit?id='.$v['goods_id']);?>"
-                                       class="label label-success">编辑</a>
-                                    <a href="<?php echo U('del?id='.$v['goods_id']);?>"
+<!--                                    <a href="<?php echo U('edit?id='.$v['goods_id']);?>"-->
+<!--                                       class="label label-success">编辑</a>-->
+                                    <a href="<?php echo U('del?id='.$v['id']);?>"
                                        class="label label-danger" onclick="return confirm('确认要删除吗？')">删除</a>
                                 </td>
                             </tr>

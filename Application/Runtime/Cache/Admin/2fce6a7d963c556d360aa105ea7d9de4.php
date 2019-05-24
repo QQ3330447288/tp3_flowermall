@@ -66,7 +66,7 @@
             </div>
             <div class="pull-left info">
                 <p> <?php echo session('a_username');?></p>
-                <!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
+<!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
             </div>
         </div>
         <ul class="sidebar-menu">
@@ -102,11 +102,11 @@
                             <span class="glyphicon"></span>分类列表
                         </a>
                     </li>
-                    <!--                    <li id="g-3-3">-->
-                    <!--                        <a href="/index.php/Admin/Attribute/lst">-->
-                    <!--                            <span class="glyphicon"></span>属性列表-->
-                    <!--                        </a>-->
-                    <!--                    </li>-->
+<!--                    <li id="g-3-3">-->
+<!--                        <a href="/index.php/Admin/Attribute/lst">-->
+<!--                            <span class="glyphicon"></span>属性列表-->
+<!--                        </a>-->
+<!--                    </li>-->
                     <li id="g-3-4">
                         <a href="/index.php/Admin/brand/lst">
                             <span class="glyphicon"></span>品牌列表
@@ -131,11 +131,6 @@
                             <span class="glyphicon"></span>会员列表
                         </a>
                     </li>
-                    <li id="g-4-3">
-                        <a href="/index.php/Admin/Member/add">
-                            <span class="glyphicon"></span>添加会员
-                        </a>
-                    </li>
                 </ul>
             </li>
 
@@ -151,11 +146,11 @@
                             <span class="glyphicon"></span> 评论列表
                         </a>
                     </li>
-                    <!--                    <li>-->
-                    <!--                        <a href="/index.php/Admin/comment/lst">-->
-                    <!--                            <span class="glyphicon"></span> 回复列表-->
-                    <!--                        </a>-->
-                    <!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="/index.php/Admin/comment/lst">-->
+<!--                            <span class="glyphicon"></span> 回复列表-->
+<!--                        </a>-->
+<!--                    </li>-->
                 </ul>
             </li>
             <li class="treeview" id="g-6">
@@ -179,24 +174,19 @@
                     <span class="label label-primary pull-right">3</span>
                 </a>
                 <ul class="treeview-menu">
-                    <!--                    <li id="g-7-1">-->
-                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
-                    <!--                            <span class="glyphicon"></span>权限列表-->
-                    <!--                        </a>-->
-                    <!--                    </li>-->
-                    <!--                    <li id="g-7-2">-->
-                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
-                    <!--                            <span class="glyphicon"></span>角色列表-->
-                    <!--                        </a>-->
-                    <!--                    </li>-->
-                    <li id="g-7-3">
+                    <li id="g-7-1">
                         <a href="/index.php/Admin/Admin/lst">
-                            <span class="glyphicon"></span>管理员列表
+                            <span class="glyphicon"></span>权限列表
                         </a>
                     </li>
                     <li id="g-7-2">
-                        <a href="/index.php/Admin/Admin/add">
-                            <span class="glyphicon"></span>添加管理员
+                        <a href="/index.php/Admin/Admin/lst">
+                            <span class="glyphicon"></span>角色列表
+                        </a>
+                    </li>
+                    <li id="g-7-3">
+                        <a href="/index.php/Admin/Admin/lst">
+                            <span class="glyphicon"></span>管理员列表
                         </a>
                     </li>
                 </ul>
@@ -209,7 +199,7 @@
             <h1>在线鲜花订购系统</h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> 商品管理</a></li>
-                <li class="active">分类列表</li>
+                <li class="active">添加品牌</li>
             </ol>
         </section>
         <section class="content" id="showcontent">
@@ -217,39 +207,28 @@
                 <div class="col-md-12">
                     <div class="box box-primary">
                         <div class="box-header">
-                            <h3 class="box-title">分类列表</h3>
-                            <a href="/index.php/Admin/Brand/add" class="btn btn-primary pull-right">添加品牌</a>
+                            <h3 class="box-title">品牌列表>添加品牌</h3>
                         </div>
-                        <table class="table table-hover text-center" style="margin-top: 5px">
-                            <tbody>
-                            <tr>
-                                <th>id</th>
-                                <th>品牌名</th>
-                                <th>品牌官网</th>
-                                <th>Logo</th>
-                                <th>操作事项</th>
-                            </tr>
-                            <?php foreach($brandData as $k=>$v): ?>
-                            <tr>
-                                <td> <?php echo ($v['id']); ?></td>
-                                <td> <?php echo ($v['brand_name']); ?></td>
-                                <td> <?php echo ($v['site_url']); ?></td>
-                                <td> <?php echo ($v['logo']); ?></td>
-                                <td>
-<!--                                    <a href="<?php echo U('edit?id='.$v['goods_id']);?>"-->
-<!--                                       class="label label-success">编辑</a>-->
-                                    <a href="<?php echo U('del?id='.$v['id']);?>"
-                                       class="label label-danger" onclick="return confirm('确认要删除吗？')">删除</a>
-                                </td>
-                            </tr>
-                            <?php endforeach; ?>
-                            </tbody>
-                        </table>
-                        <div class="box-footer clearfix">
-                            <ul class="pagination pagination-sm no-margin pull-right">
-                                <?php echo $page;?>
-                            </ul>
+                        <div class="box-body box-primary">
+                            <form action="/index.php/Admin/Brand/add" method="post">
+                                <div class="form-group">
+                                    <label for="">品牌名称</label>
+                                    <input type="text" class="form-control" name="brand_name"
+                                           placeholder="请输入品牌名称">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">品牌官网网址</label>
+                                    <input type="text" class="form-control" name="site_url"
+                                           placeholder="请输入品牌官网网址">
+                                </div>
+                                <div class="form-group">
+                                    <label for="logo">Logo</label>
+                                    <input type="file" id="logo" name="logo">
+                                </div>
+                                <button type="submit" class="btn btn-primary">添加</button>
+                            </form>
                         </div>
+
                     </div>
                 </div>
             </div>

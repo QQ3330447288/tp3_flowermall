@@ -208,8 +208,8 @@
         <section class="content-header">
             <h1>在线鲜花订购系统</h1>
             <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> 商品管理</a></li>
-                <li class="active">分类列表</li>
+                <li><a href="#"><i class="fa fa-dashboard"></i> 管理员管理</a></li>
+                <li class="active">添加管理员</li>
             </ol>
         </section>
         <section class="content" id="showcontent">
@@ -217,38 +217,31 @@
                 <div class="col-md-12">
                     <div class="box box-primary">
                         <div class="box-header">
-                            <h3 class="box-title">分类列表</h3>
-                            <a href="/index.php/Admin/Brand/add" class="btn btn-primary pull-right">添加品牌</a>
+                            <h3 class="box-title">添加管理员</h3>
                         </div>
-                        <table class="table table-hover text-center" style="margin-top: 5px">
-                            <tbody>
-                            <tr>
-                                <th>id</th>
-                                <th>品牌名</th>
-                                <th>品牌官网</th>
-                                <th>Logo</th>
-                                <th>操作事项</th>
-                            </tr>
-                            <?php foreach($brandData as $k=>$v): ?>
-                            <tr>
-                                <td> <?php echo ($v['id']); ?></td>
-                                <td> <?php echo ($v['brand_name']); ?></td>
-                                <td> <?php echo ($v['site_url']); ?></td>
-                                <td> <?php echo ($v['logo']); ?></td>
-                                <td>
-<!--                                    <a href="<?php echo U('edit?id='.$v['goods_id']);?>"-->
-<!--                                       class="label label-success">编辑</a>-->
-                                    <a href="<?php echo U('del?id='.$v['id']);?>"
-                                       class="label label-danger" onclick="return confirm('确认要删除吗？')">删除</a>
-                                </td>
-                            </tr>
-                            <?php endforeach; ?>
-                            </tbody>
-                        </table>
-                        <div class="box-footer clearfix">
-                            <ul class="pagination pagination-sm no-margin pull-right">
-                                <?php echo $page;?>
-                            </ul>
+                        <div class="box-body box-primary">
+                            <form action="/index.php/Admin/Member/add" method="post">
+                                <div class="form-group">
+                                    <label for="">会员账号</label>
+                                    <input type="text" name="username" class="form-control" name="cate_name"
+                                           placeholder="请输入管理员名称">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">会员密码</label>
+                                    <input type="password" name="password" class="form-control" name="cate_name"
+                                           placeholder="请输入管理员密码">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">会员级别</label>
+                                    <select class="form-control" name="jibie">
+                                        <option>----请选择----</option>
+                                        <?php foreach($mlData as $k =>$v):?>
+                                        <option value="<?php echo ($v['id']); ?>"><?php echo ($v['lever_name']); ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary">添加</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -274,8 +267,8 @@
 <script src="//cdn.bootcss.com/holder/2.9.4/holder.min.js"></script>
 <script>
     $(document).ready(function () {
-        $("#g-3").addClass("active");
-        $("#g-3-4").addClass("active");
+        $("#g-4").addClass("active");
+        $("#g-4-3").addClass("active");
     });
 </script>
 <script>

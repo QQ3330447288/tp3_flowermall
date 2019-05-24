@@ -33,4 +33,15 @@ class MemberLevelController extends Controller
         }
         $this->display();
     }
+    public function del()
+    {
+        $model = D('member_lever');
+//        var_dump(I('get.id'));
+//        die();
+        if (false !== $model->delete(I('get.id'))) {
+            $this->success('删除成功！', U('lst'));
+        } else {
+            $this->error('删除失败！原因：' . $model->getError());
+        }
+    }
 }

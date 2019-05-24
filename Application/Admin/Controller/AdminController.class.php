@@ -33,6 +33,33 @@ class AdminController extends Controller
         ));
         $this->display();
     }
+    public function add()
+    {
+        if (IS_POST) {
+            $model = D('Admin/admin');
+            if ($model->create(I('post.'), 1)) {
+                if ($model->add()) {
+                    $this->success('添加成功！', U('lst'));
+                    exit;
+                }
+            }
+            $this->error($model->getError());
+        }
+        $this->display();
+    }
+    public function del()
+    {
+        $model = D('admin');
+//        var_dump(I('get.id'));
+//        die();
+        if (false !== $model->delete(I('get.id'))) {
+            $this->success('删除成功！', U('lst'));
+        } else {
+            $this->error('删除失败！原因：' . $model->getError());
+        }
+    }
+
+
 
     public function logout()
     {

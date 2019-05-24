@@ -66,7 +66,7 @@
             </div>
             <div class="pull-left info">
                 <p> <?php echo session('a_username');?></p>
-<!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
+                <!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
             </div>
         </div>
         <ul class="sidebar-menu">
@@ -102,11 +102,11 @@
                             <span class="glyphicon"></span>分类列表
                         </a>
                     </li>
-<!--                    <li id="g-3-3">-->
-<!--                        <a href="/index.php/Admin/Attribute/lst">-->
-<!--                            <span class="glyphicon"></span>属性列表-->
-<!--                        </a>-->
-<!--                    </li>-->
+                    <!--                    <li id="g-3-3">-->
+                    <!--                        <a href="/index.php/Admin/Attribute/lst">-->
+                    <!--                            <span class="glyphicon"></span>属性列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     <li id="g-3-4">
                         <a href="/index.php/Admin/brand/lst">
                             <span class="glyphicon"></span>品牌列表
@@ -131,6 +131,11 @@
                             <span class="glyphicon"></span>会员列表
                         </a>
                     </li>
+                    <li id="g-4-3">
+                        <a href="/index.php/Admin/Member/add">
+                            <span class="glyphicon"></span>添加会员
+                        </a>
+                    </li>
                 </ul>
             </li>
 
@@ -146,11 +151,11 @@
                             <span class="glyphicon"></span> 评论列表
                         </a>
                     </li>
-<!--                    <li>-->
-<!--                        <a href="/index.php/Admin/comment/lst">-->
-<!--                            <span class="glyphicon"></span> 回复列表-->
-<!--                        </a>-->
-<!--                    </li>-->
+                    <!--                    <li>-->
+                    <!--                        <a href="/index.php/Admin/comment/lst">-->
+                    <!--                            <span class="glyphicon"></span> 回复列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                 </ul>
             </li>
             <li class="treeview" id="g-6">
@@ -174,19 +179,24 @@
                     <span class="label label-primary pull-right">3</span>
                 </a>
                 <ul class="treeview-menu">
-                    <li id="g-7-1">
-                        <a href="/index.php/Admin/Admin/lst">
-                            <span class="glyphicon"></span>权限列表
-                        </a>
-                    </li>
-                    <li id="g-7-2">
-                        <a href="/index.php/Admin/Admin/lst">
-                            <span class="glyphicon"></span>角色列表
-                        </a>
-                    </li>
+                    <!--                    <li id="g-7-1">-->
+                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
+                    <!--                            <span class="glyphicon"></span>权限列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
+                    <!--                    <li id="g-7-2">-->
+                    <!--                        <a href="/index.php/Admin/Admin/lst">-->
+                    <!--                            <span class="glyphicon"></span>角色列表-->
+                    <!--                        </a>-->
+                    <!--                    </li>-->
                     <li id="g-7-3">
                         <a href="/index.php/Admin/Admin/lst">
                             <span class="glyphicon"></span>管理员列表
+                        </a>
+                    </li>
+                    <li id="g-7-2">
+                        <a href="/index.php/Admin/Admin/add">
+                            <span class="glyphicon"></span>添加管理员
                         </a>
                     </li>
                 </ul>

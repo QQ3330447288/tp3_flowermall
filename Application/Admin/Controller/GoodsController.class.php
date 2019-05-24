@@ -90,7 +90,6 @@ class GoodsController extends Controller
         $this->assign('data', $data);
         //根据id取出要修改的商品信息stop
 
-
         //取出所有品牌
         $brandModel = D('brand');
         $brandData = $brandModel->select();
@@ -98,8 +97,6 @@ class GoodsController extends Controller
         $this->assign(array(
             'brandData' => $brandData,
         ));
-
-
         $this->display();
     }
 

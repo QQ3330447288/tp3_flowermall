@@ -1,0 +1,24 @@
+[ 2019-05-25T00:23:12+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004961s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0234s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
+
