@@ -3582,3 +3582,1680 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004594s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.004804s ]
 ERR: 无法加载控制器:Static
 
+[ 2019-05-24T19:55:15+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T19:55:15+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000259s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005483s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T19:55:15+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003962s ]
+
+[ 2019-05-24T20:07:36+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015140s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:36+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004572s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:36+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001492s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004141s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:55+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003071s ]
+
+[ 2019-05-24T20:07:55+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010944s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:55+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006467s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:55+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004764s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:56+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000648s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008302s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:07:56+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009656s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003111s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.1115s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+
+[ 2019-05-24T20:08:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003996s ]
+
+[ 2019-05-24T20:08:04+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:04+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:04+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006851s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:05+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003998s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:05+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004117s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:11+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006600s ]
+
+[ 2019-05-24T20:08:12+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:12+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015936s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:12+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003441s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:12+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007465s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:12+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004701s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0284s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+
+[ 2019-05-24T20:08:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002583s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002869s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2019-05-24T20:08:21+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007478s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:21+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007405s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:08:21+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003586s ]
+
+[ 2019-05-24T20:10:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016789s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004303s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005169s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005346s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003168s ]
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003966s ]
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005867s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005599s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:25+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004270s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003080s ]
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002744s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005018s ]
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014526s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004698s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008825s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004715s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:35+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.1237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+
+[ 2019-05-24T20:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003126s ]
+
+[ 2019-05-24T20:10:44+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:44+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006560s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:10:44+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023920s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:12:51+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001985s ]
+
+[ 2019-05-24T20:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003336s ]
+
+[ 2019-05-24T20:12:54+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011274s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:12:54+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012235s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:12:54+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:12:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0287s ]
+
+[ 2019-05-24T20:13:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004335s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0560s ]
+
+[ 2019-05-24T20:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000887s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0311s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanl' LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003586s ]
+
+[ 2019-05-24T20:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004033s ]
+
+[ 2019-05-24T20:15:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004017s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:17+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004877s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:18+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004071s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:18+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:23+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003855s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanl' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003026s ]
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004197s ]
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004489s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007159s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:26+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003915s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0497s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2019-05-24T20:18:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003242s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002730s ]
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010914s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003951s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:23:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001960s ]
+
+[ 2019-05-24T20:23:42+08:00 ] 127.0.0.1 /index.php/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008032s ]
+
+[ 2019-05-24T20:25:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002878s ]
+
+[ 2019-05-24T20:25:42+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003780s ]
+
+[ 2019-05-24T20:26:15+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2019-05-24T20:26:33+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004777s ]
+
+[ 2019-05-24T20:27:37+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001889s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005813s ]
+
+[ 2019-05-24T20:27:42+08:00 ] 127.0.0.1 /index.php/Admin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+ERR: 无法加载控制器:Logout
+
+[ 2019-05-24T20:27:50+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005472s ]
+
+[ 2019-05-24T20:27:53+08:00 ] 127.0.0.1 /index.php/Admin/admin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+ERR: 非法操作:logout
+
+[ 2019-05-24T20:28:42+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005018s ]
+
+[ 2019-05-24T20:28:55+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003436s ]
+
+[ 2019-05-24T20:28:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+ERR: 非法操作:logout
+
+[ 2019-05-24T20:30:29+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+
+[ 2019-05-24T20:31:37+08:00 ] 127.0.0.1 /index.php/Admin/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003482s ]
+
+[ 2019-05-24T20:31:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0360s ]
+
+[ 2019-05-24T20:32:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002822s ]
+
+[ 2019-05-24T20:32:01+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:01+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011260s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:01+08:00 ] 127.0.0.1 /index.php/Admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008779s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `flower_admin`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 230 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004048s ]
+
+[ 2019-05-24T20:32:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002997s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0271s ]
+
+[ 2019-05-24T20:32:16+08:00 ] 127.0.0.1 /admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+ERR: 无法加载控制器:Login
+
+[ 2019-05-24T20:32:36+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004634s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `flower_admin`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 230 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004954s ]
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004476s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0163s ]
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004017s ]
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005584s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010394s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003234s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005853s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:32:40+08:00 ] 127.0.0.1 /admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004253s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:33:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005360s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `flower_admin`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 230 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004316s ]
+
+[ 2019-05-24T20:34:38+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004347s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `flower_admin`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 230 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004333s ]
+
+[ 2019-05-24T20:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Admin/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003440s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `flower_admin`  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 228 行.
+NOTIC: [8] Undefined index: goods_id D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 230 行.
+NOTIC: [8] Undefined variable: page D:\E\important\git\flowerMall\Application\Runtime\Cache\Admin\2e0a6b0b98cf96bc15633704312e45ee.php 第 239 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004773s ]
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0193s ]
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003048s ]
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /admin/static/admin/plugins/jQuery/jQuery-2.2.0.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004098s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004207s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /admin/static/admin/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000224s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005744s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:35:15+08:00 ] 127.0.0.1 /admin/static/admin/plugins/iCheck/icheck.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004076s ]
+ERR: 无法加载控制器:Static
+
+[ 2019-05-24T20:35:21+08:00 ] 127.0.0.1 /admin/admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+SQL: SHOW COLUMNS FROM `flower_admin` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `flower_admin` WHERE `username` = 'Thanlon' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003442s ]
+
+[ 2019-05-24T20:35:22+08:00 ] 127.0.0.1 /index.php/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005083s ]
+
+[ 2019-05-24T20:35:29+08:00 ] 127.0.0.1 /index.php/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004117s ]
+
+[ 2019-05-24T20:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003176s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005932s ]
+

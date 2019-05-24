@@ -45,10 +45,10 @@
                         </li>
                         <li class="user-footer">
                             <div class="pull-left">
-                                <a href="pwd.html" class="btn btn-default btn-flat">修改密码</a>
+<!--                                <a href="pwd.html" class="btn btn-default btn-flat">修改密码</a>-->
                             </div>
                             <div class="pull-right">
-                                <a href="login.html" class="btn btn-default btn-flat">退出系统</a>
+                                <a href="<?php echo U('Admin/logout');?>" class="btn btn-default btn-flat">退出系统</a>
                             </div>
                         </li>
                     </ul>
@@ -65,8 +65,8 @@
                      alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>Thanlon</p>
-                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>
+                <p> <?php echo session('a_id');?></p>
+<!--                <span class="glyphicon glyphicon-map-marker"></span><a href="#"> 在线</a>-->
             </div>
         </div>
         <ul class="sidebar-menu">
