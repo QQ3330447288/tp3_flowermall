@@ -185,7 +185,7 @@ class GoodsModel extends Model
 
     public function searchLove()
     {
-        $goods_name = I('get.goods_name');
+//        $goods_name = I('get.goods_name');
         $where['cate_id'] = array('eq', '2');
         $data = $this
             ->field('a.*,b.*')

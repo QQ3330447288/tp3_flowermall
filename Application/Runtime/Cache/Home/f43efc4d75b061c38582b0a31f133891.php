@@ -91,36 +91,33 @@
             </div>
         </div>
         <div class="col-md-9">
-            <ul class="list-group">
-                <li class="list-group-item" style="background: #f7f7f7">
-                    <span style="color:#f46;font-weight: bold">价格:</span>
-                    <a href="javascript:;" class="btn btn-default">
-                        价格 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
-                    </a>
-                    &nbsp; &nbsp;
-                    <a href="javascript:;" class="btn btn-default">
-                        价格 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
-                    </a>
-                </li>
-                <li class="list-group-item" style="background: #f7f7f7">
-                    <span style="color:#f46;font-weight: bold">排序:</span>
-                    <a href="javascript:;" class="btn btn-default">
-                        销量 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a href="javascript:;" class="btn btn-default">
-                        销量 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a href="javascript:;" class="btn btn-default">
-                        时间 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>
-                    </a>
-                    &nbsp;&nbsp;
-                    <a href="javascript:;" class="btn btn-default">
-                        时间 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>
-                    </a>
-                </li>
-            </ul>
+<!--            <ul class="list-group">-->
+<!--                <li class="list-group-item" style="background: #f7f7f7">-->
+<!--                    <span style="color:#f46;font-weight: bold">价格：</span>-->
+<!--                    <a href="javascript:;" class="btn btn-default">-->
+<!--                        价格 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>-->
+<!--                    </a>-->
+<!--                    <a href="javascript:;" class="btn btn-default">-->
+<!--                        价格 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li class="list-group-item" style="background: #f7f7f7">-->
+<!--                    <span style="color:#f46;font-weight: bold">排序：</span>-->
+<!--                    &lt;!&ndash;                    <a href="javascript:;" class="btn btn-default">&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        销量 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    </a>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    &nbsp;&nbsp;&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    <a href="javascript:;" class="btn btn-default">&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        销量 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>&ndash;&gt;-->
+<!--                    &lt;!&ndash;                    </a>&ndash;&gt;-->
+<!--                    <a href="javascript:;" class="btn btn-default">-->
+<!--                        时间 <span class="glyphicon glyphicon-arrow-up" style="color: #f46"></span>-->
+<!--                    </a>-->
+<!--                    <a href="javascript:;" class="btn btn-default">-->
+<!--                        时间 <span class="glyphicon glyphicon-arrow-down" style="color: #f46"></span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--            </ul>-->
             <div class="panel-body text-center">
                 <?php foreach($data as $k=>$v):?>
                 <div class="col-md-3" style="padding: 5px">

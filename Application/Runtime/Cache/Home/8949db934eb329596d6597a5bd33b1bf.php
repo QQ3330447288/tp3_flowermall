@@ -63,31 +63,33 @@
             <li><a href="">订单 /</a></li>
         </ol>
         <div class="col-md-4" style="">
-            <form action="">
+            <form action="/index.php/Home/index/order/id/23" method="post">
                 <div class="form-group">
                     <label for="">收花人姓名</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人姓名">
+                    <input type="text" name="reveive_name" class="form-control" id="" placeholder="请输入收花人姓名">
                 </div>
                 <div class="form-group">
                     <label for="">收花人手机号</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人手机号">
+                    <input type="text" name="reveive_tel" class="form-control" id="" placeholder="请输入收花人手机号">
                 </div>
                 <div class="form-group">
                     <label for="">收花人所在省</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在省">
+                    <input type="text" name="reveive_province" class="form-control" id="" placeholder="请输入收花人所在省">
                 </div>
                 <div class="form-group">
                     <label for="">收花人所在市</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在市">
+                    <input type="text" name="reveive_city" class="form-control" id="" placeholder="请输入收花人所在市">
                 </div>
                 <div class="form-group">
                     <label for="">收花人所在县</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人所在县">
+                    <input type="text" name="reveive_area" class="form-control" id="" placeholder="请输入收花人所在县">
                 </div>
                 <div class="form-group">
                     <label for="">收花人详细地址</label>
-                    <input type="text" class="form-control" id="" placeholder="请输入收花人详细地址">
+                    <input type="text" name="reveive_addr" class="form-control" id="" placeholder="请输入收花人详细地址">
                 </div>
+                <input hidden="hidden" type="text" name="member_id" value="<?php echo session('m_id');?>">
+<!--                <input hidden type="text" name="pay_time">-->
                 <table class="table table-hover">
                     <tr>
                         <td>商品名称</td>

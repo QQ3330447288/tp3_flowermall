@@ -142,6 +142,17 @@ class IndexController extends Controller
         $this->assign(array(
             'goods_data' => $goods_data,
         ));
+        //保存订单信息
+        if (IS_POST) {
+            $model = D('Admin/order');
+            if ($model->create(I('post.'), 1)) {
+                if ($model->add()) {
+                    $this->success('添加成功！', U('orderlst'));
+                    exit;
+                }
+            }
+            $this->error($model->getError());
+        }
 
         $this->display();
     }
@@ -153,9 +164,10 @@ class IndexController extends Controller
         $data = $model->orderlst($id);
 
         $this->assign($data);
-
         $this->display();
     }
+
+
 
     public function orderlst()
     {

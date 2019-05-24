@@ -1180,3 +1180,237 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
 ERR: 无法加载模块:Public
 
+[ 2019-05-25T00:36:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001629s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:46+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012422s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:47+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:47+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:51+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003212s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:51+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000629s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002556s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:51+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:54+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:55+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:36:55+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:37:06+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006010s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:37:06+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001816s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:37:06+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:31+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:31+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001898s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:31+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001671s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:44+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005017s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:48+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:48+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002068s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:45:49+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:55:59+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002528s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:55:59+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:55:59+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:56:34+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003117s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:56:34+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003593s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:56:35+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002969s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:57:05+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:57:05+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T00:57:05+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:06:58+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002864s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:06:58+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006238s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:06:58+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:23:29+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff2?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:23:29+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.woff?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+ERR: 无法加载模块:Public
+
+[ 2019-05-25T01:23:29+08:00 ] 127.0.0.1 /Public/Admin/fonts/fontawesome-webfont.ttf?v=4.7.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+ERR: 无法加载模块:Public
+

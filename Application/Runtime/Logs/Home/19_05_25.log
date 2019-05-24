@@ -22,3 +22,3392 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002941s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
 
+[ 2019-05-25T00:37:58+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004448s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000568s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005096s ]
+
+[ 2019-05-25T00:38:57+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002685s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 16 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '16'  [ RunTime:0.0011s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '16'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '16'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003849s ]
+
+[ 2019-05-25T00:39:02+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '18'  [ RunTime:0.0017s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '18'  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '18'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002747s ]
+
+[ 2019-05-25T00:39:07+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 18 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '18'  [ RunTime:0.0014s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '18'  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0997s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '18'  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002967s ]
+
+[ 2019-05-25T00:39:10+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '22'  [ RunTime:0.0014s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '22'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '22'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002804s ]
+
+[ 2019-05-25T00:39:16+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.1167s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002791s ]
+
+[ 2019-05-25T00:39:18+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0320s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002922s ]
+
+[ 2019-05-25T00:39:21+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0196s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003046s ]
+
+[ 2019-05-25T00:39:23+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0726s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003963s ]
+
+[ 2019-05-25T00:39:26+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0244s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004168s ]
+
+[ 2019-05-25T00:39:30+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.1145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004242s ]
+
+[ 2019-05-25T00:40:46+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0198s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006351s ]
+
+[ 2019-05-25T00:41:02+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004271s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0225s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003563s ]
+
+[ 2019-05-25T00:41:04+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0204s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003084s ]
+
+[ 2019-05-25T00:41:33+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009672s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0219s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004040s ]
+
+[ 2019-05-25T00:41:50+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034362s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0227s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003647s ]
+
+[ 2019-05-25T00:41:52+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002562s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.1109s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005054s ]
+
+[ 2019-05-25T00:41:57+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003117s ]
+
+[ 2019-05-25T00:42:19+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0206s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000689s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004408s ]
+
+[ 2019-05-25T00:42:22+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0225s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000440s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004183s ]
+
+[ 2019-05-25T00:42:25+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003625s ]
+
+[ 2019-05-25T00:42:27+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0231s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003625s ]
+
+[ 2019-05-25T00:42:29+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0233s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000606s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003916s ]
+
+[ 2019-05-25T00:42:57+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002744s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0296s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004656s ]
+
+[ 2019-05-25T00:43:29+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0307s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004723s ]
+
+[ 2019-05-25T00:48:00+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003101s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0026s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000599s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003513s ]
+
+[ 2019-05-25T00:48:12+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0341s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2019-05-25T00:48:14+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2019-05-25T00:48:38+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0243s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004879s ]
+
+[ 2019-05-25T00:48:41+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003060s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006734s ]
+
+[ 2019-05-25T00:48:43+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0298s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003798s ]
+
+[ 2019-05-25T00:48:45+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0266s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003936s ]
+
+[ 2019-05-25T00:49:01+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002602s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2019-05-25T00:49:08+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0253s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003939s ]
+
+[ 2019-05-25T00:52:10+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0262s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004323s ]
+
+[ 2019-05-25T00:52:22+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.1714s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0026s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004138s ]
+
+[ 2019-05-25T00:52:24+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0202s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003812s ]
+
+[ 2019-05-25T00:52:26+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0256s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003750s ]
+
+[ 2019-05-25T00:52:28+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002947s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0440s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000540s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005019s ]
+
+[ 2019-05-25T00:52:31+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003248s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0223s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004056s ]
+
+[ 2019-05-25T00:52:34+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006104s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0311s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004150s ]
+
+[ 2019-05-25T00:52:36+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0278s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003756s ]
+
+[ 2019-05-25T00:52:38+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002731s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0331s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002849s ]
+
+[ 2019-05-25T00:52:40+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002646s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0237s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002955s ]
+
+[ 2019-05-25T00:53:11+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006269s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004448s ]
+
+[ 2019-05-25T00:53:53+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0203s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004639s ]
+
+[ 2019-05-25T00:53:56+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002692s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0225s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004013s ]
+
+[ 2019-05-25T00:54:10+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003247s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0234s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002958s ]
+
+[ 2019-05-25T00:54:13+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003271s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0254s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002848s ]
+
+[ 2019-05-25T00:54:15+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0206s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002888s ]
+
+[ 2019-05-25T00:54:34+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005015s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0264s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003901s ]
+
+[ 2019-05-25T00:54:36+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0863s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003454s ]
+
+[ 2019-05-25T00:54:39+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0268s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003916s ]
+
+[ 2019-05-25T00:54:41+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0196s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005471s ]
+
+[ 2019-05-25T00:54:44+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002989s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0190s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003536s ]
+
+[ 2019-05-25T00:54:47+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0213s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2019-05-25T00:55:06+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007004s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0910s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003800s ]
+
+[ 2019-05-25T00:55:08+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000401s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0222s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003948s ]
+
+[ 2019-05-25T00:55:10+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0197s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000442s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005436s ]
+
+[ 2019-05-25T00:55:13+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002911s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0214s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005569s ]
+
+[ 2019-05-25T00:55:15+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0205s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004017s ]
+
+[ 2019-05-25T00:55:17+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0227s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003864s ]
+
+[ 2019-05-25T00:55:19+08:00 ] 127.0.0.1 /index.php/Home/index/highendflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0326s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '7'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003735s ]
+
+[ 2019-05-25T00:55:21+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0274s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005339s ]
+
+[ 2019-05-25T00:55:31+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004497s ]
+
+[ 2019-05-25T00:55:34+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0323s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004255s ]
+
+[ 2019-05-25T00:55:36+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0226s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003930s ]
+
+[ 2019-05-25T00:56:35+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0196s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004514s ]
+
+[ 2019-05-25T00:56:44+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0229s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003892s ]
+
+[ 2019-05-25T00:56:51+08:00 ] 127.0.0.1 /index.php/Home/index/liveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0203s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '5'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003876s ]
+
+[ 2019-05-25T00:56:53+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0786s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003834s ]
+
+[ 2019-05-25T00:57:06+08:00 ] 127.0.0.1 /index.php/Home/index/blueflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0723s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '6'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004705s ]
+
+[ 2019-05-25T00:57:08+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002771s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006541s ]
+
+[ 2019-05-25T00:57:10+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0236s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003946s ]
+
+[ 2019-05-25T00:57:14+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.1077s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003822s ]
+
+[ 2019-05-25T00:57:24+08:00 ] 127.0.0.1 /index.php/Home/index/loveflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003760s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0194s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '2'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000717s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005662s ]
+
+[ 2019-05-25T00:57:27+08:00 ] 127.0.0.1 /index.php/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003127s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0307s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `flower_goods` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  ORDER BY goods_id desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003819s ]
+
+[ 2019-05-25T00:57:38+08:00 ] 127.0.0.1 /index.php/Home/index/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = ''  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002696s ]
+
+[ 2019-05-25T00:57:43+08:00 ] 127.0.0.1 /index.php/Home/index/orderlst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004357s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0283s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003976s ]
+
+[ 2019-05-25T00:57:51+08:00 ] 127.0.0.1 /index.php/Home/index/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = ''  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2019-05-25T00:57:54+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '22'  [ RunTime:0.0014s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '22'  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '22'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2019-05-25T00:57:57+08:00 ] 127.0.0.1 /index.php/Home/index/cart/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '22'  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002768s ]
+
+[ 2019-05-25T00:58:12+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '22'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003722s ]
+
+[ 2019-05-25T00:58:20+08:00 ] 127.0.0.1 /index.php/Home/index/cart/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '22'  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004467s ]
+
+[ 2019-05-25T00:58:34+08:00 ] 127.0.0.1 /index.php/Home/index/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003416s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = ''  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004630s ]
+
+[ 2019-05-25T00:58:50+08:00 ] 127.0.0.1 /index.php/Home/index/orderlst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003669s ]
+
+[ 2019-05-25T00:59:14+08:00 ] 127.0.0.1 /index.php/Home/index/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004148s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = ''  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003527s ]
+
+[ 2019-05-25T01:04:12+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '22'  [ RunTime:0.0013s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '22'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '22'  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 140 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005658s ]
+
+[ 2019-05-25T01:04:44+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '22'  [ RunTime:0.0015s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '22'  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '22'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003493s ]
+
+[ 2019-05-25T01:05:21+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002747s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 22 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '22'  [ RunTime:0.0015s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '22'  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '22'  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003654s ]
+
+[ 2019-05-25T01:05:48+08:00 ] 127.0.0.1 /index.php/Home/index/birflower
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003971s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0268s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_cate b ON a.cate_id=b.id  WHERE `cate_id` = '3'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004547s ]
+
+[ 2019-05-25T01:05:50+08:00 ] 127.0.0.1 /index.php/Home/index/goods/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT a.*,b.* FROM flower_goods a LEFT JOIN flower_brand b ON a.brand_id=b.id  WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT a.*,c.* FROM flower_goods a LEFT JOIN flower_cate C ON a.cate_id=c.id  WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `flower_comment` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `flower_comment` WHERE `goods_id` = '23'  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Undefined index: goods_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 76 行.
+NOTIC: [8] Undefined index: cate_name D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 88 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 139 行.
+NOTIC: [8] Undefined index: content D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\862a52d698112494831f0f0bc6d3727d.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004648s ]
+
+[ 2019-05-25T01:08:15+08:00 ] 127.0.0.1 /index.php/Home/index/cart/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014094s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003745s ]
+
+[ 2019-05-25T01:08:27+08:00 ] 127.0.0.1 /index.php/Home/index/cart/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 68 行.
+NOTIC: [8] Undefined variable: goodsdata D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\2a19e4d8489cbec7911ac8159368948d.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2019-05-25T01:08:33+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003329s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003739s ]
+
+[ 2019-05-25T01:09:51+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004277s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2019-05-25T01:09:57+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007496s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003751s ]
+
+[ 2019-05-25T01:14:49+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004765s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003711s ]
+
+[ 2019-05-25T01:16:50+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004770s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004040s ]
+
+[ 2019-05-25T01:16:53+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0892s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`) VALUES ('','','','','','') [ RunTime:0.0734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+
+[ 2019-05-25T01:16:56+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003832s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003623s ]
+
+[ 2019-05-25T01:17:38+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003597s ]
+
+[ 2019-05-25T01:17:39+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0272s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003546s ]
+
+[ 2019-05-25T01:17:42+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003843s ]
+
+[ 2019-05-25T01:17:52+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004812s ]
+
+[ 2019-05-25T01:18:36+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0193s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`) VALUES ('牛新龙','18937693205','山东省','烟台市','蓬莱市','济南大学泉城学院') [ RunTime:0.0712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+
+[ 2019-05-25T01:18:38+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003351s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2019-05-25T01:21:09+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0212s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003034s ]
+
+[ 2019-05-25T01:21:21+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
+
+[ 2019-05-25T01:21:31+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003963s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002898s ]
+
+[ 2019-05-25T01:21:35+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002791s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002842s ]
+
+[ 2019-05-25T01:21:49+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003193s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003411s ]
+
+[ 2019-05-25T01:21:54+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003397s ]
+
+[ 2019-05-25T01:22:21+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003629s ]
+
+[ 2019-05-25T01:22:30+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004832s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003560s ]
+
+[ 2019-05-25T01:22:43+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004264s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005680s ]
+
+[ 2019-05-25T01:23:02+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002588s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0813s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0229s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`) VALUES ('牛新龙','123456','山东省','烟台市','蓬莱市','济南大学泉城学院','1') [ RunTime:0.0832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003503s ]
+
+[ 2019-05-25T01:23:05+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004749s ]
+
+[ 2019-05-25T01:23:08+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002892s ]
+
+[ 2019-05-25T01:23:09+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003352s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003846s ]
+
+[ 2019-05-25T01:27:03+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0204s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`) VALUES ('牛新龙','123456','山东省','烟台市','蓬莱市','济南大学泉城学院','1') [ RunTime:0.0696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002934s ]
+
+[ 2019-05-25T01:27:05+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003628s ]
+
+[ 2019-05-25T01:27:16+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000700s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2019-05-25T01:27:18+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003318s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003543s ]
+
+[ 2019-05-25T01:28:15+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2019-05-25T01:28:47+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: D方法实例化没找到模型类Admin\Model\OrderModel
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0198s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`,`pay_time`) VALUES ('牛新龙','18937693205','山东省','烟台市','蓬莱市','济南大学泉城学院','1','0') [ RunTime:0.0462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001989s ]
+
+[ 2019-05-25T01:28:50+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004256s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002863s ]
+
+[ 2019-05-25T01:31:33+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003646s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003234s ]
+
+[ 2019-05-25T01:31:34+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003408s ]
+
+[ 2019-05-25T01:31:40+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0193s ]
+
+[ 2019-05-25T01:31:43+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002676s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003848s ]
+
+[ 2019-05-25T01:32:02+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0199s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`,`pay_time`) VALUES ('牛新龙','18937693205','山东省','烟台市','蓬莱市','济南大学泉城学院','1','2019-05-25 01:32:02') [ RunTime:0.0468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002319s ]
+
+[ 2019-05-25T01:32:05+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2019-05-25T01:32:15+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004223s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002784s ]
+
+[ 2019-05-25T01:33:05+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002625s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004291s ]
+
+[ 2019-05-25T01:33:29+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003204s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002737s ]
+
+[ 2019-05-25T01:33:39+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003978s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0198s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`,`pay_time`) VALUES ('牛新龙','18937693205','山东省','烟台市','蓬莱市','济南大学泉城学院','1','2019-05-25 01:33:39') [ RunTime:0.0570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003361s ]
+
+[ 2019-05-25T01:33:41+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004018s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003292s ]
+
+[ 2019-05-25T01:34:53+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003513s ]
+
+[ 2019-05-25T01:34:54+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003248s ]
+
+[ 2019-05-25T01:34:57+08:00 ] 127.0.0.1 /index.php/Home/index/order/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000215s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003650s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = '23'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `flower_goods` WHERE `goods_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `flower_order` [ RunTime:0.0205s ]
+SQL: INSERT INTO `flower_order` (`reveive_name`,`reveive_tel`,`reveive_province`,`reveive_city`,`reveive_area`,`reveive_addr`,`member_id`,`pay_time`,`addtime`) VALUES ('牛新龙','18937693205','山东省','烟台市','蓬莱市','济南大学泉城学院','1','2019-05-25 01:34:57','2019-05-25 01:34:57') [ RunTime:0.0834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002107s ]
+
+[ 2019-05-25T01:35:00+08:00 ] 127.0.0.1 /index.php/Home/Index/orderlst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006102s ]
+SQL: SHOW COLUMNS FROM `flower_goods` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `flower_goods` LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 75 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 76 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 79 行.
+NOTIC: [8] Undefined variable: v D:\E\important\git\flowerMall\Application\Runtime\Cache\Home\160832f13ae3face63038dc7bebf87f9.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002888s ]
+
